@@ -1,0 +1,102 @@
+Design Summary : All Constraints Met.
+
+Setup Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Hold Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Recovery Summary(Slow Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Removal Summary(Slow Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Minimum Pulse Width Summary(Slow Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Setup Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk|u_ip_clk/u_pll_e3/CLKOUT0_Inferred
+                        sys_clk|u_ip_clk/u_pll_e3/CLKOUT0_Inferred
+                                                    21.826       0.000              0            131
+ sys_clk|u_ip_clk/u_pll_e3/CLKOUT1_Inferred
+                        sys_clk|u_ip_clk/u_pll_e3/CLKOUT1_Inferred
+                                                    26.918       0.000              0            946
+ sys_clk|u_ip_clk/u_pll_e3/CLKOUT2_Inferred
+                        sys_clk|u_ip_clk/u_pll_e3/CLKOUT1_Inferred
+                                                    15.177       0.000              0             10
+ sys_clk|u_ip_clk/u_pll_e3/CLKOUT2_Inferred
+                        sys_clk|u_ip_clk/u_pll_e3/CLKOUT2_Inferred
+                                                     5.370       0.000              0            432
+ sys_clk|u_ip_clk/u_pll_e3/CLKOUT1_Inferred
+                        sys_clk|u_ip_clk/u_pll_e3/CLKOUT2_Inferred
+                                                     7.548       0.000              0            139
+====================================================================================================
+
+Hold Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+ sys_clk|u_ip_clk/u_pll_e3/CLKOUT0_Inferred
+                        sys_clk|u_ip_clk/u_pll_e3/CLKOUT0_Inferred
+                                                     0.334       0.000              0            131
+ sys_clk|u_ip_clk/u_pll_e3/CLKOUT1_Inferred
+                        sys_clk|u_ip_clk/u_pll_e3/CLKOUT1_Inferred
+                                                     0.101       0.000              0            946
+ sys_clk|u_ip_clk/u_pll_e3/CLKOUT2_Inferred
+                        sys_clk|u_ip_clk/u_pll_e3/CLKOUT1_Inferred
+                                                     0.273       0.000              0             10
+ sys_clk|u_ip_clk/u_pll_e3/CLKOUT2_Inferred
+                        sys_clk|u_ip_clk/u_pll_e3/CLKOUT2_Inferred
+                                                     0.286       0.000              0            432
+ sys_clk|u_ip_clk/u_pll_e3/CLKOUT1_Inferred
+                        sys_clk|u_ip_clk/u_pll_e3/CLKOUT2_Inferred
+                                                     0.278       0.000              0            139
+====================================================================================================
+
+Recovery Summary(Fast Corner):
+****************************************************************************************************
+                                                                          TNS Failing      TNS Total
+ Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Removal Summary(Fast Corner):
+****************************************************************************************************
+                                                                          THS Failing      THS Total
+ Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Minimum Pulse Width Summary(Fast Corner):
+****************************************************************************************************
+                                                                         WPWS Failing     WPWS Total
+ Clock                                            WPWS(ns)    TPWS(ns)      Endpoints      Endpoints
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+

@@ -1,0 +1,75 @@
+##### Written on 2024/08/15 14:40:48 ###############################
+
+
+##### DESIGN INFO ##################################################
+
+Top Module:
+	ad7606_csi
+
+Constraint File(s):
+	C:/Users/yanqs/Desktop/csi_ad/ad7606_csi/project/ad7606_csi_pgl25g/constraints/ad7606_csi.fdc
+
+##### SUMMARY ######################################################
+
+Found 0 error(s), 8 critical warning(s), 0 warning(s), out of 193 constraint(s)
+
+
+Inapplicable constraints(except overwritten constraints):
+********************************************
+
+
+
+define_attribute {p:adc_data[15]} {PAP_IO_LOC} {A16}
+
+	C: ConstraintEditor-2002: [C:/Users/yanqs/Desktop/csi_ad/ad7606_csi/project/ad7606_csi_pgl25g/constraints/ad7606_csi.fdc(line number: 68)] | Port adc_data[15] has been placed at location A16, whose type is share pin.
+
+define_attribute {p:adc_data[14]} {PAP_IO_LOC} {B16}
+
+	C: ConstraintEditor-2002: [C:/Users/yanqs/Desktop/csi_ad/ad7606_csi/project/ad7606_csi_pgl25g/constraints/ad7606_csi.fdc(line number: 72)] | Port adc_data[14] has been placed at location B16, whose type is share pin.
+
+define_attribute {p:adc_data[13]} {PAP_IO_LOC} {C14}
+
+	C: ConstraintEditor-2002: [C:/Users/yanqs/Desktop/csi_ad/ad7606_csi/project/ad7606_csi_pgl25g/constraints/ad7606_csi.fdc(line number: 76)] | Port adc_data[13] has been placed at location C14, whose type is share pin.
+
+define_attribute {p:adc_data[12]} {PAP_IO_LOC} {D14}
+
+	C: ConstraintEditor-2002: [C:/Users/yanqs/Desktop/csi_ad/ad7606_csi/project/ad7606_csi_pgl25g/constraints/ad7606_csi.fdc(line number: 80)] | Port adc_data[12] has been placed at location D14, whose type is share pin.
+
+define_attribute {p:adc_data[11]} {PAP_IO_LOC} {A15}
+
+	C: ConstraintEditor-2002: [C:/Users/yanqs/Desktop/csi_ad/ad7606_csi/project/ad7606_csi_pgl25g/constraints/ad7606_csi.fdc(line number: 84)] | Port adc_data[11] has been placed at location A15, whose type is share pin.
+
+define_attribute {p:adc_data[10]} {PAP_IO_LOC} {C15}
+
+	C: ConstraintEditor-2002: [C:/Users/yanqs/Desktop/csi_ad/ad7606_csi/project/ad7606_csi_pgl25g/constraints/ad7606_csi.fdc(line number: 88)] | Port adc_data[10] has been placed at location C15, whose type is share pin.
+
+define_attribute {p:adc_data[9]} {PAP_IO_LOC} {E13}
+
+	C: ConstraintEditor-2002: [C:/Users/yanqs/Desktop/csi_ad/ad7606_csi/project/ad7606_csi_pgl25g/constraints/ad7606_csi.fdc(line number: 92)] | Port adc_data[9] has been placed at location E13, whose type is share pin.
+
+define_attribute {p:adc_data[8]} {PAP_IO_LOC} {F13}
+
+	C: ConstraintEditor-2002: [C:/Users/yanqs/Desktop/csi_ad/ad7606_csi/project/ad7606_csi_pgl25g/constraints/ad7606_csi.fdc(line number: 96)] | Port adc_data[8] has been placed at location F13, whose type is share pin.
+
+
+Constraints with issues:
+********************************************
+
+
+
+
+
+
+
+
+
+
+
+
+Constraints with matching wildcard expressions:
+********************************************
+
+
+
+
+
