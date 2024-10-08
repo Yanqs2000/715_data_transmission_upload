@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
     if (argc != 2) 
     {  
         printf("Usage: %s <IP Address> \n", argv[0]);
-        // 作为客户端使用时，argv[1]表示的是对方服务器端的IP地址
+        // 作为客户端使用时，argv[1]表示的是对方服务器端的IP地址，本机则为127.0.0.1
         exit(1); 
     }
 

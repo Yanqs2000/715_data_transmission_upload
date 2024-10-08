@@ -13,7 +13,7 @@
 #endif
 
 #define PORT 8080
-#define IP "192.168.1.207" // 服务器端IP地址
+#define IP "192.168.1.207" // 服务器端IP地址，本机则为127.0.0.1
 #define MAXLINE 100
 
 // gcc -o netudpserver.exe netudpserver.c -lws2_32
