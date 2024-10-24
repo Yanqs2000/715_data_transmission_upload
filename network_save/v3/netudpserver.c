@@ -83,6 +83,21 @@ int main()
             exit(1);
         }
 
+        // 确保接收到的数据长度为 1044 字节
+        if (num != MAXLINE) 
+        {
+            if (num == 4)
+            {
+                goto over;
+            }
+            else
+            {
+                printf("Received incomplete packet of %d bytes\n", num);
+                continue;
+            }
+
+        }
+
         // 解析数据包
         tPing *ping_data = (tPing *)buffer;
 
@@ -99,25 +114,25 @@ int main()
                inet_ntoa(client.sin_addr),
                ping_cnt, valid);
         
-        // 打印包头内容
-        printf("Pack header: 0x%x\n", pack_hdr);
-        printf("Ping hdr:%u\n",ping_hdr);
-        print_bytes(buffer,1);
+        // // 打印包头内容
+        // printf("Pack header: 0x%x\n", pack_hdr);
+        // printf("Ping hdr:%u\n",ping_hdr);
+        print_bytes(buffer,pack_cnt);
 
         // 将完整的1044字节数据包写入文件
         fwrite(buffer, 1, num, file);
         fflush(file);  // 确保每次都写入磁盘
 
-        // 发送回执给客户端
-        sendto(sockfd, "Received", 8, 0, (struct sockaddr *)&client, sin_size);
-
         // 检查是否收到退出命令
-        if (!strcmp(buffer, "quit")) // 比较数据包中数据内容部分（第21字节开始）
+    over:
+        if (!strcmp(buffer, "over"))
         {
-            printf("Quit command received. Closing server.\n");
+            printf("Closing server.\n");
             break;
         }
     }
+    // 发送回执给客户端
+    sendto(sockfd, "Received", 8, 0, (struct sockaddr *)&client, sin_size);
 
     // 关闭文件和套接字
     fclose(file);
