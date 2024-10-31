@@ -1,0 +1,36 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\qf7.820.5748_240902.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\qf7.820.5748_240902.dsn")
+      (Path "Design Resources" ".\qf7.820.5748_240902.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\qf7.820.5748_240902.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 413"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1688 52 504")
+        (Scroll "0 200")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\YANQS\DESKTOP\DESKTOP\1\QF7.820.5748_240902.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "01.POWER")))
+  (MPSSessionName "yanqs"))

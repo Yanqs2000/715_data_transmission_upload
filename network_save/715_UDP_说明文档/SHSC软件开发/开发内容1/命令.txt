@@ -1,0 +1,10 @@
+共享文件夹挂载
+sudo vmhgfs-fuse .host:/ /mnt/hgfs -o nonempty -o allow_other
+运行arm读取命令
+./csi_test -d /dev/video0 -w 1024 -h 512 -F BGGR -n 120
+./csi_test -d /dev/video0 -w 1024 -h 512 -F BGGR -n 144000
+
+挂载nas
+sudo mount.cifs -o rw,user,noperm,username=17551156396,password="mepus.1234",uid=1000,gid=1000 //192.168.1.197/nvme11-175XXXX6396 /mnt/nas
+解除挂载
+sudo umount /mnt/nas
