@@ -1,0 +1,114 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Create_devices LOG file                                          )
+(                                                                     )
+(    Drawing          : ebf_f407 motor dev board_20200821.brd         )
+(    Software Version : 16.6-2015S108                                 )
+(    Date/Time        : Sat Sep 19 13:00:27 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/spacer_0_t4r2-6r2_botsmt_ic_30.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/con30_1_fpc-32s-0p5sv_fpc-32s-0.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_2_r0603_discrete_10k.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_2_r0603_discrete_47k.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/bcm857bs_sot-363_bcm857bs.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_5_r0603_discrete_51k.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/12mhz_1_xtal-dip_12mhz.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/sip5_2_1_xh2p54-5p-r_xh254-5p-.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/con4_xh2p54-4p_con4.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/dht11_ds18b20_dht11_ds18b20_dht.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/con32a_dip-2x16-2p54_dip-2x16-2.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/hdr_1x3_th_sip3-2p54_io_sip3-2p.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_4_r0603_discrete_1k.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_5_r0603_discrete_68k.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/diode_ll34_in4148.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/el357_op-smd-4_el357nbta-g.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/con24a_idc2x12-2p54-180_z-s3110.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/el357_1_tlp2362_tlp2362tplet.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/capnp_c1206_1nf.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/con8a_dip-2x4-2p54_dip-2x4-2p54.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/el357_2_op-smd-16_ltv-247.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/con4_db2erc-3p81-4p_db2erc-381.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/inductor_l0603_gz1608d121tf.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/iso7221ad_sop8_adum1201arz-rl7.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/ct2012_0_ec6p3_100uf35v.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/cap_np_c0603_discrete_01uf.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/c1608_c0603_68pf.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/cap_np_c0603_discrete_22uf.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/c1608_c0603_01uf.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/cap_np_c0603_discrete_22pf.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/cap_np_c0603_discrete_10pf.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/cap_np_c0603_discrete_10nf.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/ct2012_0_ec6p3_220uf10v.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/zdiode_0_sma_ic_b340a.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/zdiode_0_do214_ic_smaj28ca.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/tvsarrcoma_sot23_psot24c.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/8header_db2erc-3p81-8p_db2erc-.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/con8_db2erc-3p81-8p_db2erc-381.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/usbconnfemtypeathra.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/con3_sip3-2p54_sip3-2p54.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/con6_db2erc-3p81-6p_db2erc-381.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/header6_db2erc-3p81-6p_db2erc-.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/type-c-31-m-12_type-c-31-m-12_t.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/lqh32c_0_l6p6x7p3_mhci06030-150.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_r0603_discrete_220r.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_r0603_discrete_100r.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_r0603_discrete_22k.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_r0603_discrete_510r.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_r0603_discrete_120r.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_5_r0603_discrete_499r.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_r0603_discrete_10k1.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_5_r0603_discrete_121k1.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_5_r0603_discrete_270r.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_r0603_discrete_324k1.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_5_r0603_discrete_100r.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/u-mp2012dq_2_switch_ddsz_power-.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/mp2482dn_4_soic8e_tps5430dda.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/tja1057gt3_2_sop8_ic_tja1042t3.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/zy0505fs_b0505s_b0505s-1wr3.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/tja1057gt3_1_sop8_ic_gm485e.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/stm32f429igt6_lqfp176_stm32f407.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_5_r0603_discrete_1k.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_5_r0603_discrete_nc.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_5_r0603_discrete_22k_5.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/diodebi-dirtrig_sod323_pesd3v.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/at24c02_0_sop8_at24c02.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/b2s_1_hdr102_dip-1x2-2p54.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/bead_l0603_discrete_330100mhz_.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/ct2012_0_ec6p3_100uf16v.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/ct2012_0_cap100_nc.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/cap_np_c0603_discrete_10uf.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/cap_np_c0603_discrete_nc10pf.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/cr1220_cr1220_cr1220.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/con_db9_db9-f_con_db9.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/bat54c_sot23_bat54c.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/zdiode_0_do214_ic_smaj50ca.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/led_0_led0603_ic_red.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/led_0_led0603_ic_blue.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/rj45_hr961160c_0_rj45_io_hr9111.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/conn_hdr_6x1_sip6-2p54_io_sip6-.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/powerjack_3_jack-2_5mm_b_power.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/piezobuzzer_0_buzzer_buzzer.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/mosfet_p_sot23_ic_ssm3j328r.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/npn_sot23_ic_ss8050.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_r0603_discrete_47k.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_5_r0603_discrete_47k.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_r0603_discrete_1k.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_4_r0603_discrete_47k.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_5_r0603_discrete_34k.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/res_r0603_discrete_10k.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/sw_pb_esw_0_sw4_pb_esw_sm_p177_.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/lan8720a_qfn24_lan8720a.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/sy6280aac_sot23-5_mt9700.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/25wp_2_soic8-208_ic_w25q128jv.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/1086-33_to252-2_1086-33.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/max3232eeae_1_soic16_ch340g.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/max3232eeae_soic16_max3232cse.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/crystal_jxs63_3225_ic_25mhz.txt': written successfully.
+Device file 'C:/Users/Administrator/Desktop/4444/CADENCE格式/PCB/crystal_3215_ic_32768khz.txt': written successfully.
+
+  Created device files: 99
+
