@@ -88,7 +88,7 @@ int main(int argc, char* argv[])
         }
 
         // 适当的休眠以防止过快循环
-        usleep(100000);  // 休眠100毫秒
+        usleep(50000);  // 休眠50毫秒
     }
     // 关闭串口
     close(usb_serial_GuanDao);
