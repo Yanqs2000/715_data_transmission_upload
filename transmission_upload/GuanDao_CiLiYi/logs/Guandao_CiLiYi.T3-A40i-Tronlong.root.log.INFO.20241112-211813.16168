@@ -1,4 +1,0 @@
-Log file created at: 2024/11/12 21:18:13
-Running on machine: T3-A40i-Tronlong
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-I1112 21:18:13.409889 16168 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_211811.dat
