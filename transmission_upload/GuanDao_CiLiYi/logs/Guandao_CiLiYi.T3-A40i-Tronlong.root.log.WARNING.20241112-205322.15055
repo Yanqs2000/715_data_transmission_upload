@@ -1,0 +1,4 @@
+Log file created at: 2024/11/12 20:53:22
+Running on machine: T3-A40i-Tronlong
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E1112 20:53:22.004377 15055 Thread_ReadUSB.cpp:103] read_process:[overtime 3s]read 60 bytes usb data error

@@ -1,0 +1,32 @@
+Log file created at: 2024/11/12 21:22:17
+Running on machine: T3-A40i-Tronlong
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1112 21:22:17.916646 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:22:20.025933 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:22:22.137676 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:22:24.264070 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:22:26.375119 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:22:28.495491 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:22:30.612442 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:22:32.728492 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:22:34.838538 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:22:36.957602 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:22:39.076792 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:22:41.187650 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:22:43.305675 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:22:45.417307 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:22:47.527771 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:22:49.653581 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:22:51.778858 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:22:53.883893 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:22:56.002413 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:22:58.111886 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:23:00.227182 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:23:02.337688 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:23:04.451073 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:23:06.574112 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:23:08.688892 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:23:10.781028 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:23:12.898609 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:23:15.036437 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
+I1112 21:23:17.152292 16400 Guandao_CiLiYi.cpp:145] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241112_212216.dat
