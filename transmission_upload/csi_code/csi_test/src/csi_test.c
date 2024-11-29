@@ -224,7 +224,7 @@ int main(int argc, char **argv)
             
             //check_data((uint8_t *)camera->data, params.width, params.height, frame_cnt);
 
-            fprintf(file, "The %d frames",frame_cnt);
+            //fprintf(file, "The %d frames",frame_cnt);
                     
             size_t data_number = fwrite(camera->data, sizeof(unsigned char), params.width * params.height, file);
             if (data_number == 0)
@@ -267,7 +267,7 @@ int main(int argc, char **argv)
     printf("time: %d ms, rate: %g MB/s\n", cost_time, average_rate);
 
     /* Check the last frame */
-    check_data((uint8_t *)camera->data, params.width, params.height, frame_cnt);
+    //check_data((uint8_t *)camera->data, params.width, params.height, frame_cnt);
 
     v4l2_device_stream_off(camera);
 

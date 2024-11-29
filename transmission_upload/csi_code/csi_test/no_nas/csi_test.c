@@ -77,7 +77,7 @@ int main(int argc, char **argv)
     struct timeval time_start, time_end, time_diff;//time_start、time_end 和 time_diff 用于计算程序运行时间等。
     uint32_t cost_time;
     float average_rate;
-    char filenameNas[100];
+    //char filenameNas[100];
     char filename[100];
     int file_cnt = 0;
     
@@ -120,7 +120,7 @@ int main(int argc, char **argv)
         {
             file_cnt++;
             sprintf(filename, "/mnt/data/frames/frame_%d.bin",file_cnt);
-            sprintf(filenameNas, "/mnt/nas/frame_%d.bin",file_cnt);
+            //sprintf(filenameNas, "/mnt/nas/frame_%d.bin",file_cnt);
             
         }
         if (v4l2_device_get_buffer(camera, 3)) //调用 v4l2_device_get_buffer 函数获取一帧数据。
@@ -141,7 +141,7 @@ int main(int argc, char **argv)
                 printf("can not open file\n");
                 g_quit = true;
             }
-            fprintf(file, "The %d frames",frame_cnt);
+            //fprintf(file, "The %d frames",frame_cnt);
                     
             size_t data_number = fwrite(camera->data, sizeof(unsigned char), params.width * params.height, file);
             if (data_number == 0)
@@ -151,22 +151,22 @@ int main(int argc, char **argv)
             }
 
             fclose(file);
-            FILE* filenas = fopen(filenameNas, "ab");
-            if (filenas == NULL) 
-            {
-                printf("can not open filenas\n");
-                g_quit = true;
-            }
-            fprintf(filenas, "The %d frames",frame_cnt);
+            // FILE* filenas = fopen(filenameNas, "ab");
+            // if (filenas == NULL) 
+            // {
+            //     printf("can not open filenas\n");
+            //     g_quit = true;
+            // }
+            // fprintf(filenas, "The %d frames",frame_cnt);
                     
-            size_t data_numbernas = fwrite(camera->data, sizeof(unsigned char), params.width * params.height, filenas);
+            // size_t data_numbernas = fwrite(camera->data, sizeof(unsigned char), params.width * params.height, filenas);
             //if (data_number == 0)
             //{
                 //printf("The %d frames write error\n",frame_cnt);
                 //g_quit = true;
             //}
 
-            fclose(filenas);
+            //fclose(filenas);
             
             fflush(stdout);
 
@@ -191,7 +191,7 @@ int main(int argc, char **argv)
     printf("time: %d ms, rate: %g MB/s\n", cost_time, average_rate);
 
     /* Check the last frame */
-    check_data((uint8_t *)camera->data, params.width, params.height, frame_cnt);
+    //check_data((uint8_t *)camera->data, params.width, params.height, frame_cnt);
 
     v4l2_device_stream_off(camera);
     return 0;
