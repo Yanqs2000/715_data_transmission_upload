@@ -22,11 +22,74 @@
 #include <signal.h>
 #include <stdint.h>
 #include <sys/time.h>
+#include <fcntl.h>
+#include <termios.h>
+#include <netinet/in.h>
 
 #include "v4l2_device_control.h"
 #include "parameter_parser.h"
 
 volatile bool g_quit = false;//用于表示是否需要退出程序
+int sockfd;
+struct sockaddr_in server_addr;
+
+
+//串口初始化函数
+int serial_init(const char *port, int baud_rate)
+{
+    int fd = open(port, O_RDWR | O_NOCTTY | O_NDELAY);
+    if (fd == -1) {
+        perror("open serial port");
+        return -1;
+    }
+
+    struct termios options;
+    tcgetattr(fd, &options);
+    cfsetispeed(&options, baud_rate);
+    cfsetospeed(&options, baud_rate);
+    options.c_cflag |= (CLOCAL | CREAD);
+    options.c_cflag &= ~CSIZE;
+    options.c_cflag |= CS8;
+    options.c_cflag &= ~PARENB;
+    options.c_cflag &= ~CSTOPB;
+    tcsetattr(fd, TCSANOW, &options);
+
+    return fd;
+}
+
+void init_network_socket(int port)
+{
+    sockfd = socket(AF_INET, SOCK_DGRAM, 0);
+    if (sockfd < 0) {
+        perror("Socket creation failed");
+        exit(EXIT_FAILURE);
+    }
+
+    memset(&server_addr, 0, sizeof(server_addr));
+    server_addr.sin_family = AF_INET;
+    server_addr.sin_addr.s_addr = INADDR_ANY;
+    server_addr.sin_port = htons(port);
+
+    if (bind(sockfd, (const struct sockaddr *)&server_addr, sizeof(server_addr)) < 0) {
+        perror("Bind failed");
+        exit(EXIT_FAILURE);
+    }
+}
+
+void receive_and_forward_data(int serial_fd)
+{
+    char buffer[1024];
+    struct sockaddr_in client_addr;
+    socklen_t len = sizeof(client_addr);
+
+    while (1) {
+        int n = recvfrom(sockfd, (char *)buffer, sizeof(buffer), MSG_WAITALL, (struct sockaddr *)&client_addr, &len);
+        if (n > 0) {
+            write(serial_fd, buffer, n);  // 转发数据到串口
+            printf("Forwarded %d bytes to serial\n", n);
+        }
+    }
+}
 
 //接收到 SIGINT 信号（即Ctrl+C）时，设置 g_quit 为 true，表示需要退出程序。
 static void sig_handle(int signal)
