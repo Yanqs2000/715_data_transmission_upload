@@ -82,6 +82,11 @@ int USB_init_GuanDao(const char* filename)//接受一个字符指针 filename，
     tty.c_cflag &= ~CSTOPB;                    //设置为一个停止位（CSTOPB）
     tty.c_cflag &= ~CRTSCTS;                   //禁用 RTS/CTS 硬件流控制（CRTSCTS）
 
+
+    //清空串口的输入缓冲区
+    if (tcflush(usb_serial, TCIFLUSH) < 0)
+        return -1;
+
     //使用tcsetattr应用配置。如果失败，记录错误并返回-1
     if (tcsetattr(usb_serial, TCSANOW, &tty) != 0)
     {
@@ -235,6 +240,105 @@ int DataExtractor_raw(const uint8_t *frame, size_t frame_size, uint8_t *date_tim
     return 1;
 }
 
+#define BUFFER_SIZE 1024
+volatile bool g_quit = false;
+int init_serial(int *fd, const char *dev) {
+    struct termios opt;
+
+    /* open serial device */
+    if ((*fd = open(dev, O_RDWR)) < 0) {
+        perror("open()");
+        return -1;
+    }
+
+    /* define termois */
+    if (tcgetattr(*fd, &opt) < 0) {
+        perror("tcgetattr()");
+        return -1;
+    }
+
+    opt.c_lflag  &= ~(ICANON | ECHO | ECHOE | ISIG);
+    opt.c_oflag  &= ~OPOST;
+
+    /* Character length, make sure to screen out this bit before setting the data bit */
+    opt.c_cflag &= ~CSIZE;
+
+    /* No hardware flow control */
+    opt.c_cflag &= ~CRTSCTS;
+
+    /* 8-bit data length */
+    opt.c_cflag |= CS8;
+
+    /* 1-bit stop bit */
+    opt.c_cflag &= ~CSTOPB;
+
+    /* No parity bit */
+    opt.c_iflag |= IGNPAR;
+
+    /* Output mode */
+    opt.c_oflag = 0;
+    
+    /* No active terminal mode */
+    opt.c_lflag = 0;
+
+    /* Input baud rate */
+    if (cfsetispeed(&opt, B115200) < 0)
+        return -1;
+
+    /* Output baud rate */
+    if (cfsetospeed(&opt, B115200) < 0)
+        return -1;
+
+    /* Overflow data can be received, but not read */
+    if (tcflush(*fd, TCIFLUSH) < 0)
+        return -1;
+
+    if (tcsetattr(*fd, TCSANOW, &opt) < 0)
+        return -1;
+
+    return 0;
+}
+
+int serial_read(int *serial_fd_GuanDao, uint8_t *data, size_t size) {
+    size_t read_left = size;
+    size_t read_size = 0;
+    uint8_t *read_ptr = data;
+    struct timeval timeout = {5, 0}; //设置 5 秒的超时。
+
+    memset(data, 0, size);
+
+    fd_set rfds;
+    while (!g_quit) {
+        FD_ZERO(&rfds);
+        FD_SET(*serial_fd_GuanDao, &rfds);
+        timeout.tv_sec = 5;
+        timeout.tv_usec = 0;
+
+        if (read_left == 0)
+            break;
+
+        switch (select(*serial_fd_GuanDao + 1, &rfds, NULL, NULL, &timeout)) {
+        case -1:
+            perror("select()");
+            break;
+        case 0:
+            perror("timeout and retry");
+            break;
+        default:
+            if (FD_ISSET(*serial_fd_GuanDao,&rfds)) {
+                read_size = read(*serial_fd_GuanDao, read_ptr, read_left);
+                if (read_size == 0)
+                    break;
+
+                read_ptr += read_size;
+                read_left -= read_size;
+            }
+        }
+    }
+
+    return read_size;
+}
+
 int main() 
 {
     const char* serial_device_GuanDao = "/dev/ttyS3"; // 串口3(GuanDao)设备路径
@@ -258,6 +362,17 @@ int main()
         return -1;
     }
 
+
+    //********* */
+    // int serial_fd_GuanDao = -1;
+    // int ret = -1;           // 返回值，初始化为 -1 表示错误
+    // ret = init_serial(&serial_fd_GuanDao, serial_device_GuanDao); // 初始化串口，打开设备
+    // if (ret < 0) {
+    //     close(serial_fd_GuanDao);           // 如果初始化失败，关闭文件描述符（如果已打开）
+    //     return -1;          // 返回错误
+    // }
+    //********* */
+
     // 定义帧头
     uint8_t frame_header[HEADER_SIZE] = FRAME_HEADER;
 
@@ -272,7 +387,21 @@ int main()
         uint8_t date_time[22];
         // 调用读取函数
         uint8_t* frame = read_process(serial_fd_GuanDao, TOTAL_BYTES, frame_header, HEADER_SIZE);
-        
+
+
+        //*** */
+        // uint8_t *frame = (uint8_t *)malloc(BUFFER_SIZE); // 分配内存
+        // if (frame == NULL) {
+        //     perror("Memory allocation failed");
+        //     return EXIT_FAILURE; // 检查内存分配是否成功
+        // }
+
+        // size_t size = TOTAL_BYTES;
+        // serial_read(&serial_fd_GuanDao, frame, size);
+        //*** */    
+
+
+
         if (frame != NULL) 
         {
             DataExtractor_raw(frame, TOTAL_BYTES, date_time, sizeof(date_time));
@@ -314,7 +443,7 @@ int main()
             keep_running = false;
         }
         // 根据数据源发送频率进行适当的延时
-        usleep(50000); // 100毫秒延时，对应10Hz发送频率100000
+        usleep(50000); // 5毫秒延时，对应10Hz发送频率100000
     }
     printf("\n%d\n",frame_number);
 

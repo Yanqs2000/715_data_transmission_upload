@@ -1,0 +1,96 @@
+Log file created at: 2024/12/17 15:00:35
+Running on machine: T3-A40i-Tronlong
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1217 15:00:35.776311 16976 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:00:35.886152 16976 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 15:00:36.026110 16976 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:00:36.136130 16976 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 15:00:36.266263 16976 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:00:36.376181 16976 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 15:00:36.496186 16976 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:00:36.606156 16976 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 15:00:36.736151 16976 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:00:37.056224 16976 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+E1217 15:00:37.080742 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.082180 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.082895 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.083864 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.084906 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.085939 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.086979 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.089370 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.089780 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.090097 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.091168 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.092187 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.093225 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.094259 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.095309 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.096730 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.098518 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.098805 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.099725 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.100592 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.101596 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.102622 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.107195 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.107656 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.107960 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.108249 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.108562 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.110648 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.111071 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.111362 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.112268 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.121214 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.121654 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.121904 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.122140 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.122382 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.122850 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.123133 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.123365 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.123598 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.123829 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.124218 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.124521 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.125572 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.126632 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.127696 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.129667 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.130141 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.131779 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.132196 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.132880 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.136049 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.136554 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 15:00:37.136816 16976 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+W1217 15:00:37.266211 16976 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:00:37.426126 16976 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:00:37.596206 16976 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:00:47.396739 16976 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 15:00:47.606966 16976 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 15:00:47.826151 16976 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 15:00:48.036128 16976 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 15:00:48.256219 16976 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 15:00:48.466130 16976 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 15:00:48.586138 16976 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:00:48.696125 16976 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 15:00:48.826135 16976 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:00:48.936142 16976 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 15:00:49.066172 16976 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:00:49.176103 16976 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 15:00:49.306277 16976 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:00:49.416236 16976 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 15:00:49.536178 16976 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:00:49.646337 16976 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 15:00:49.766161 16976 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:00:49.876188 16976 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 15:00:49.996212 16976 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:00:50.106135 16976 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 15:00:50.246168 16976 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:00:50.356137 16976 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 15:00:50.476133 16976 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:00:50.586140 16976 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 15:00:50.716192 16976 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:00:50.826160 16976 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive

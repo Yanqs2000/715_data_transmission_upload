@@ -1,0 +1,83 @@
+Log file created at: 2024/12/17 16:24:10
+Running on machine: T3-A40i-Tronlong
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1217 16:24:10.176342 20653 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+I1217 16:24:10.212019 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+W1217 16:24:10.316241 20653 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+I1217 16:24:10.334996 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+W1217 16:24:10.446228 20653 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+I1217 16:24:10.467371 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+W1217 16:24:10.576239 20653 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+I1217 16:24:10.595450 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+W1217 16:24:10.706192 20653 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+I1217 16:24:10.724345 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+W1217 16:24:10.826195 20653 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+I1217 16:24:10.839510 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:10.999341 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:11.172626 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:11.323302 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:11.487187 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:11.650727 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:11.812427 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:11.974157 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:12.140417 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:12.315068 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:12.467077 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:12.627808 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:12.790717 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:12.946298 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:13.116520 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:13.278472 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:13.461549 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:13.605333 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:13.768224 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:13.932880 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:14.095068 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:14.257612 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:14.423152 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:14.600626 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:14.746449 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:14.909792 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:15.077374 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:15.235337 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:15.396317 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:15.561946 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:15.739290 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:15.890599 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:16.051949 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:16.221822 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:16.382051 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:16.541477 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:16.705070 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:16.884711 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:17.027242 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:17.206627 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:17.353008 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:17.512190 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:17.679697 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:17.846094 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:18.025599 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:18.170487 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:18.328437 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:18.497186 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:18.660753 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:18.826117 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+I1217 16:24:18.984599 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+W1217 16:24:19.086184 20653 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+I1217 16:24:19.122124 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+W1217 16:24:19.226928 20653 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+I1217 16:24:19.248961 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+W1217 16:24:19.356161 20653 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+I1217 16:24:19.375065 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+W1217 16:24:19.486212 20653 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+I1217 16:24:19.510337 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+W1217 16:24:19.616120 20653 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+I1217 16:24:19.636323 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+W1217 16:24:19.746122 20653 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+I1217 16:24:19.769009 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+W1217 16:24:19.876163 20653 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+I1217 16:24:19.898600 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+W1217 16:24:20.006174 20653 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+I1217 16:24:20.029091 20653 Guandao_CiLiYi.cpp:241] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_162410.dat
+W1217 16:24:20.136236 20653 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:24:20.161923 20653 Guandao_CiLiYi.cpp:48] Program Interrupts

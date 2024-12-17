@@ -1,0 +1,30 @@
+Log file created at: 2024/12/17 16:27:10
+Running on machine: T3-A40i-Tronlong
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1217 16:27:10.697458 20904 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:10.806146 20904 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:10.916126 20904 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:11.026171 20904 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:11.136200 20904 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:11.246170 20904 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:11.356179 20904 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:11.466183 20904 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:11.576239 20904 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:11.786183 20904 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:11.916174 20904 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:12.026145 20904 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:12.136162 20904 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:12.246184 20904 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:12.356128 20904 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:12.466187 20904 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:12.576164 20904 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:12.686229 20904 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:12.796231 20904 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:12.906129 20904 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:13.036126 20904 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:13.146098 20904 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:13.266146 20904 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:13.426136 20904 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:13.586215 20904 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:13.756134 20904 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:13.916169 20904 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive

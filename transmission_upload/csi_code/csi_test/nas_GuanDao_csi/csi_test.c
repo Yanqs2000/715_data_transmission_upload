@@ -68,9 +68,14 @@ int main(int argc, char **argv)
     char file_name_time[64];
     char filename[128];
     char nas_folder_path[64];
-    
+    char full_command[128];
+    char base_command[64] = "sudo mkdir -p ";
+
     const char* serial_device_FPGA    = "/dev/ttyS6"; // 串口6(FPGA)设备路径
     const char* serial_device_GuanDao = "/dev/ttyS3"; // 串口3(GuanDao)设备路径
+
+    struct stat output_info;
+    struct stat output_nas_info;
 
     // 定义帧头
     uint8_t frame_header[HEADER_SIZE] = FRAME_HEADER;
@@ -103,6 +108,12 @@ int main(int argc, char **argv)
         strncpy(output_file, params.data_folder, sizeof(output_file) - 1);
         output_file[sizeof(output_file) - 1] = '\0';  // 确保字符串以 null 结尾
     }
+
+    if (stat(output_file, &output_info) != 0) 
+    {
+        mkdir(output_file, 0777);  // Create logs directory with full permissions
+    }
+
     if (params.nas_folder != NULL) 
     {
         strncpy(nas_folder_path, params.nas_folder, sizeof(nas_folder_path) - 1);
@@ -119,7 +130,7 @@ int main(int argc, char **argv)
     /* Ctrl+c handler */
     signal(SIGINT, sig_handle);
 
-    printf("wait starting\n");
+    printf("initializing...\n");
 
     // 创建网络套接字以接收数据包
     int sockfd = socket(AF_INET, SOCK_DGRAM, 0);
@@ -152,16 +163,49 @@ int main(int argc, char **argv)
     memset(&nas_thread_params, 0, sizeof(nas_thread_params));
     nas_thread_params.num = file_num;
 
-    // 检查文件夹是否存在，并且配置文件中启用nas
+    // 检查文件夹是否存在，并且配置文件中启用nas,F_OK 表示检查文件是否存在
     if (access(nas_folder_path, F_OK) == 0 && params.if_nas == true) 
-    {
-        // F_OK 表示检查文件是否存在
+    {    
         if (pthread_create(&thread_upload_nas, NULL, &Upload_nas, (void *)&nas_thread_params)) 
         {
             perror("pthread create");
             return -1;
         }
     }
+    else if (access(nas_folder_path, F_OK) == -1 && params.if_nas == true)
+    {
+        // 执行挂载命令
+        int ret = system("sudo systemctl start camera.service");
+        if (ret == -1) 
+        {
+            perror("Failed to start camera.service");
+            return -1;
+        }
+        sleep(2); // 等待挂载完成
+
+        if (stat(nas_folder_path, &output_nas_info) != 0) 
+        {   
+            // 使用 sprintf 将基本命令和路径拼接成完整命令
+            snprintf(full_command, sizeof(full_command), "%s%s", base_command, nas_folder_path);
+
+            int ret = system(full_command);
+            if (ret == -1) 
+            {
+                perror("Failed to execute mkdir command");
+                return -1;
+            }
+        }
+
+        if (access(nas_folder_path, F_OK) == 0 && params.if_nas == true)
+        {
+            if (pthread_create(&thread_upload_nas, NULL, &Upload_nas, (void *)&nas_thread_params)) 
+            {
+                perror("pthread create");
+                return -1;
+            }
+        }
+    }
+    printf("wait starting\n");
 
     // 主线程等待子线程接收到正确的数据包
     while (!g_quit) 

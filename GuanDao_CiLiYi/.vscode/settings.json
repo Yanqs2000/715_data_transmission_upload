@@ -48,6 +48,10 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "thread": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "bit": "cpp",
+        "optional": "cpp",
+        "string_view": "cpp",
+        "cinttypes": "cpp"
     }
 }
