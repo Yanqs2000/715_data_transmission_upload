@@ -27,6 +27,8 @@ volatile sig_atomic_t data_received = 0; // 新增标志位，表示是否接收
 pthread_mutex_t data_received_mutex = PTHREAD_MUTEX_INITIALIZER; // 保护共享变量的互斥锁
 uint8_t initial_command_buffer[32]; // 起始命令数据接收缓冲区
 char all_filenames[1024][128] = {0}; // 1024表示文件名个数，128表示文件名长度
+FILE *initial_command_file;
+FILE *read_initial_command_file = NULL;
 
 int file_cnt = 0;
 int nas_cnt = 2;
@@ -40,16 +42,16 @@ struct ThreadParams nas_thread_params;
 // 预期的接收数据包
 uint8_t start_uart6_packet[32] = 
 {
-    0xF0, 0x00, 0x20, 0x00, 0x0A, 0x01, 0x02, 0x03,
-    0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF,
+    0xF0, 0x00, 0x20, 0x00, 0x0A, 0x0A, 0x0A, 0x0A,
+    0x0B, 0x0B, 0x0A, 0x0A, 0xF7, 0xF7, 0x0B, 0xFF,
     0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF,
     0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0x0D, 0x0A,
 };
 
 uint8_t end_uart6_packet[32] = 
 {
-    0xF0, 0x00, 0x20, 0x00, 0x0B, 0x01, 0x02, 0x03,
-    0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF,
+    0xF0, 0x00, 0x20, 0x00, 0x0B, 0x0A, 0x0A, 0x0A,
+    0x0B, 0x0B, 0x0A, 0x0A, 0xF7, 0xF7, 0x0B, 0xFF,
     0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF,
     0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0x0D, 0x0A,
 };
@@ -110,8 +112,8 @@ int USB_init_GuanDao(const char* filename)//接受一个字符指针 filename，
     }
 
     // 设置串口的波特率为9600。cfsetospeed 和 cfsetispeed 分别设置输出和输入波特率。
-    cfsetospeed(&tty, B9600);
-    cfsetispeed(&tty, B9600);
+    cfsetospeed(&tty, B115200);
+    cfsetispeed(&tty, B115200);
     
     tty.c_cflag = (tty.c_cflag & ~CSIZE) | CS8;//CS8表示数据位为8位
     tty.c_iflag &= ~IGNBRK;                    //IGNBRK表示忽略Break信号
@@ -223,6 +225,17 @@ int config_handler(void* user, const char* section, const char* name, const char
                 params->if_GuanDao = false;  // 解析为 false
             }
         }
+        else if (strcmp(name, "if_delete_start_command") == 0) 
+        {
+            if (strcmp(value, "true") == 0)
+            {
+                params->if_delete_start_command = true;  // 解析为 true
+            }
+            else if (strcmp(value, "false") == 0)
+            {
+                params->if_delete_start_command = false;  // 解析为 false
+            }
+        }
     }
 
     return 1;  // 返回非零表示继续处理
@@ -297,6 +310,18 @@ int receive_network_data(int sockfd, struct sockaddr_in *client_addr)
             perror("sendto");
             return -1;
         }
+
+        initial_command_file = fopen("/mnt/data/csi_code/csi_test/nas_GuanDao_csi/start_command", "wb+");
+        if (initial_command_file == NULL) 
+        {
+            // Error opening file
+            perror("Failed to open file1");
+            return -1;
+        }
+
+        fwrite(initial_command_buffer, sizeof(char), 32, initial_command_file);
+        fclose(initial_command_file);
+        printf("create start_command");
 
         printf("Sent the received packet back to %s:%d\n", 
                inet_ntoa(client_addr->sin_addr), ntohs(client_addr->sin_port));

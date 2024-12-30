@@ -43,6 +43,8 @@ pthread_cond_t cond;//等待线程
 
 extern struct _Params params; // params 结构体用于存储接收数据参数
 extern struct ThreadParams nas_thread_params;
+extern FILE *initial_command_file;
+extern FILE *read_initial_command_file;
 
 //接收到 SIGINT 信号（即Ctrl+C）时，设置 g_quit 为 true，表示需要退出程序。
 static void sig_handle(int signal)
@@ -96,7 +98,7 @@ int main(int argc, char **argv)
     memset(&params, 0, sizeof(params));//使用 memset 函数将 params 结构体的内存空间初始化为零。
     
     // 首先尝试从 config.ini 文件加载参数
-    if (!parse_parameter_from_config(&params, "config.ini")) 
+    if (!parse_parameter_from_config(&params, "/mnt/data/csi_code/csi_test/nas_GuanDao_csi/config.ini")) 
     {
         printf("Failed to load parameters from config.ini\n");
         exit(2);
@@ -152,14 +154,34 @@ int main(int argc, char **argv)
         return -1;
     }
 
-    // 创建子线程来监听网络数据包
-    if (pthread_create(&network_thread, NULL, network_listener, &sockfd) != 0) 
+    if (access("/mnt/data/csi_code/csi_test/nas_GuanDao_csi/start_command", F_OK) == -1)
     {
-        perror("pthread_create");
-        return -1;
+        // 创建子线程来监听网络数据包
+        if (pthread_create(&network_thread, NULL, network_listener, &sockfd) != 0) 
+        {
+            perror("pthread_create");
+            return -1;
+        }
     }
+    else
+    {
+        initial_command_file = fopen("/mnt/data/csi_code/csi_test/nas_GuanDao_csi/start_command", "r");
+        size_t bytes_read = fread(initial_command_buffer, sizeof(uint8_t), sizeof(initial_command_buffer), initial_command_file);
+        data_received = 1;
+        printf("read existed command\n");
+    }
+    sleep(2);
 
-    int file_num = params.number / params.one_file_frames + 1;
+    int file_num;
+    if( params.number % params.one_file_frames == 0)
+    {
+        file_num = params.number / params.one_file_frames;
+    }
+    else
+    {
+        file_num = params.number / params.one_file_frames + 1;
+    }
+    
     memset(&nas_thread_params, 0, sizeof(nas_thread_params));
     nas_thread_params.num = file_num;
 
@@ -377,9 +399,27 @@ int main(int argc, char **argv)
     }
     printf("End data successfully sent to %s\n",serial_device_FPGA);
     
+    //删除文件 "start_command"
+
+    if (params.if_delete_start_command == true)
+    {
+        if (remove("start_command") == 0) 
+        {
+            printf("File 'start_command' successfully deleted.\n");
+        } 
+        else 
+        {
+            perror("Error deleting file");
+        }
+    }
+
     close(sockfd);
     close(serial_fd_FPGA); // 关闭串口
 
-    pthread_join(thread_upload_nas, NULL);//等待线程结束
+    if(access(nas_folder_path, F_OK) == 0 && params.if_nas == true)
+    {
+        pthread_join(thread_upload_nas, NULL);//等待线程结束
+    }
+    
     return 0;
 }

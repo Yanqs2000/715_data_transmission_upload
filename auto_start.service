@@ -1,0 +1,15 @@
+[Unit]
+Description=CSI Test Service
+After=network.target
+Wants=network-online.target
+# 延迟 20 秒启动服务
+ExecStartPre=/bin/sleep 20
+
+[Service]
+ExecStart=/path/to/csi_test   # 你编译后的 csi_test 程序的路径
+Restart=on-failure            # 如果程序退出，系统会自动重启程序
+TimeoutSec=300                # 设置程序启动的超时时间
+KillSignal=SIGINT             # 设置通过 systemctl kill 命令发送 SIGINT 信号
+
+[Install]
+WantedBy=multi-user.target

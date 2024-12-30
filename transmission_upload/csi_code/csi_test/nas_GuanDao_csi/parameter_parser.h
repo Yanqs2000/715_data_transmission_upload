@@ -23,7 +23,8 @@ struct _Params {
     char        *data_folder;  
     char        *nas_folder;
     bool        if_nas;
-    bool        if_GuanDao;  
+    bool        if_GuanDao;
+    bool        if_delete_start_command;  
 };
 
 bool parse_parameter(struct _Params *params, int argc, char **argv);
