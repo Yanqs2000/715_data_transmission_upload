@@ -44,9 +44,9 @@ int USB_init(const char* filename)//接受一个字符指针 filename，表示�
         LOG(ERROR) << "Error from tcgetattr: " << strerror(errno);
         return -1;
     }
-    // 设置串口的波特率为9600。cfsetospeed 和 cfsetispeed 分别设置输出和输入波特率。
-    cfsetospeed(&tty, B9600);
-    cfsetispeed(&tty, B9600);
+    // 设置串口的波特率为115200。cfsetospeed 和 cfsetispeed 分别设置输出和输入波特率。
+    cfsetospeed(&tty, B115200);
+    cfsetispeed(&tty, B115200);
     
     tty.c_cflag = (tty.c_cflag & ~CSIZE) | CS8;//CS8表示数据位为8位
     tty.c_iflag &= ~IGNBRK;                    //IGNBRK表示忽略Break信号
@@ -88,7 +88,7 @@ vector<uint8_t> read_process(int usb_serial, size_t total_bytes, const vector<ui
     vector<uint8_t> frame(total_bytes, 0);//一个大小为total_bytes的向量frame
     string name;
 
-    if (total_bytes == 60)
+    if (total_bytes == 120)
     {
         name = "CiLiYi";
     }
@@ -101,7 +101,7 @@ vector<uint8_t> read_process(int usb_serial, size_t total_bytes, const vector<ui
     //进入无限循环
     while (true) 
     {
-        //从串口读取x个字节。
+        //从串口读取1个字节。
         int num_bytes = read(usb_serial, &byte, 1);
 
         //如果读取成功，则将其添加到 buffer 中。
@@ -123,15 +123,18 @@ vector<uint8_t> read_process(int usb_serial, size_t total_bytes, const vector<ui
             std::cerr << "Error while reading: " << name << " data "<< strerror(errno) << std::endl;
             break;
         }
-
+        
         if(buffer.size() >= total_bytes)
         {
+            //cout << "first: "<< std::hex << std::setw(2) << std::setfill('0') << static_cast<int>(buffer[0]) << std::endl;
+            
             //检查 buffer 的开头是否与 frame_header 匹配
             if (equal(frame_header.begin(), frame_header.end(), buffer.begin())) 
             {
                 copy(buffer.begin(), buffer.begin() + total_bytes, frame.begin());//复制数据到 frame
                 buffer.erase(buffer.begin(), buffer.begin() + total_bytes);//从 buffer 中移除已处理的字节
-
+                cout << "match success" << endl;
+                
                 // 计算工作时间
                 //auto current_time = std::chrono::high_resolution_clock::now();
                 //auto elapsed_time = std::chrono::duration_cast<std::chrono::milliseconds>(current_time - start_time);
@@ -144,7 +147,7 @@ vector<uint8_t> read_process(int usb_serial, size_t total_bytes, const vector<ui
                 // 匹配失败，移除 buffer 的第一个字节，继续检查
                 buffer.pop_front();
                 LOG(ERROR) << "data "  << name << " mismatch";
-                std::cerr << "data "  << name << " mismatch" << std::endl;
+                //std::cerr << "data "  << name << " mismatch" << std::endl;
                 
                 // 计算工作时间
                 //auto current_time = std::chrono::high_resolution_clock::now();

@@ -1,0 +1,43 @@
+Log file created at: 2024/12/17 16:27:43
+Running on machine: T3-A40i-Tronlong
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1217 16:27:43.556289 20992 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:43.666199 20992 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:43.776146 20992 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:43.886176 20992 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:43.996207 20992 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:44.106235 20992 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:44.216167 20992 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:44.326210 20992 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:44.436196 20992 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:44.546136 20992 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:44.666153 20992 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:44.926184 20992 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:45.036185 20992 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:45.146127 20992 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:45.266160 20992 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:45.416141 20992 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:45.586154 20992 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:55.596213 20992 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:55.816139 20992 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:56.026775 20992 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:56.246239 20992 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:56.456248 20992 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:56.576272 20992 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:56.686229 20992 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:56.796139 20992 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:56.906227 20992 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:57.016127 20992 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:57.126161 20992 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:57.236173 20992 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:57.346128 20992 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:57.456136 20992 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:57.566198 20992 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:57.696127 20992 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:57.806181 20992 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:57.916180 20992 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:58.026193 20992 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:58.136230 20992 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:58.246166 20992 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+W1217 16:27:58.356132 20992 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 16:27:58.466149 20992 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive

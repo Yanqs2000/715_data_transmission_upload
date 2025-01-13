@@ -1,0 +1,23 @@
+Log file created at: 2024/12/17 15:18:23
+Running on machine: T3-A40i-Tronlong
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W1217 15:18:23.826354 17605 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:18:23.949079 17605 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+I1217 15:18:23.978961 17605 Guandao_CiLiYi.cpp:201] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_151823.dat
+W1217 15:18:24.096179 17605 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:18:24.206233 17605 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+I1217 15:18:24.227523 17605 Guandao_CiLiYi.cpp:201] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_151823.dat
+W1217 15:18:24.336169 17605 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:18:24.446484 17605 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+I1217 15:18:24.467767 17605 Guandao_CiLiYi.cpp:201] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_151823.dat
+W1217 15:18:24.586182 17605 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:18:24.696200 17605 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+I1217 15:18:24.716557 17605 Guandao_CiLiYi.cpp:201] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_151823.dat
+W1217 15:18:24.826195 17605 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:18:24.946161 17605 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+I1217 15:18:24.981451 17605 Guandao_CiLiYi.cpp:201] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_151823.dat
+W1217 15:18:25.086158 17605 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:18:25.196187 17605 Thread_ReadUSB.cpp:117] CiLiYi is 60 bytes data, but no data receive
+I1217 15:18:25.213423 17605 Guandao_CiLiYi.cpp:201] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20241217_151823.dat
+W1217 15:18:25.316169 17605 Thread_ReadUSB.cpp:117] GuanDao is 110 bytes data, but no data receive
+W1217 15:18:25.370326 17605 Guandao_CiLiYi.cpp:48] Program Interrupts

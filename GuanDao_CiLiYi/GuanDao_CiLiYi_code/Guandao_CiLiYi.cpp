@@ -19,7 +19,15 @@
 #include <signal.h>
 #include <numeric> // For std::accumulate
 #include "INIReader.h"
+#include <sys/ipc.h> 
+#include <sys/shm.h> 
+#include <semaphore.h>
+#include <stdint.h> 
 
+#define SHM_SIZE 22 
+#define SEM_NAME "/my_semaphore" 
+#define SHM_KEY 1234 // 固定的键值
+ 
 using namespace std;
 
 extern int USB_init(const char* filename);
@@ -30,7 +38,7 @@ extern void get_filename_from_time(char *filename, size_t len);
 extern struct _Params params;
 
 const vector<uint8_t> GuanDao_frame_header = {0xAA, 0x55, 0x5A, 0xA5};//定义惯导帧头
-const vector<uint8_t> CiLiYi_frame_header = {0x4C, 0x57, 0x3C, 0x00};//定义磁力仪帧头
+const vector<uint8_t> CiLiYi_frame_header = {0x4C, 0x57, 0x78, 0x00};//定义磁力仪帧头
 
 int usb_serial_GuanDao;
 int usb_serial_CiLiYi;
@@ -61,7 +69,7 @@ void check_and_increment(const std::vector<uint8_t>& data_raw,int total_bytes)
     });
 
     // 如果不全为 0，则计数器加 1
-    if (!all_zero && total_bytes == 60) 
+    if (!all_zero && total_bytes == 120) 
     {
         CX_data_package++;
     }
@@ -73,14 +81,18 @@ void check_and_increment(const std::vector<uint8_t>& data_raw,int total_bytes)
 
 int main(int argc, char* argv[]) 
 {
-    vector<uint8_t> data_raw_GuanDao;
+    int shmid;
+    uint8_t *str;
+    sem_t *sem;
+    
+    //vector<uint8_t> data_raw_GuanDao;
     vector<uint8_t> data_raw_CiLiYi;
     vector<uint8_t> data_CiLiYi;
     vector<uint8_t> data_GuanDao;
     ofstream outfile;
     ofstream outfile_nas;
     INIReader reader("config.ini");
-
+    
     string base_command = "sudo mkdir -p ";
 
     if (reader.ParseError() < 0) 
@@ -150,10 +162,10 @@ int main(int argc, char* argv[])
     FLAGS_log_dir = log_dir;  // Set log directory
     FLAGS_logtostderr = false; // Only output to file
 
-    const char* usb_device_GuanDao = "/dev/ttyS3";  // ttyS3 for GuanDao (惯导)
+    //const char* usb_device_GuanDao = "/dev/ttyS3";  // ttyS3 for GuanDao (惯导)
     const char* usb_device_CiLiYi = "/dev/ttyS4";  // ttyS4 for CiLiYi (磁力仪)
     int GuanDao_total_bytes = 110;  // Bytes to read from GuanDao
-    int CiLiYi_total_bytes = 60;    // Bytes to read from CiLiYi
+    int CiLiYi_total_bytes = 120;    // Bytes to read from CiLiYi
     char file_name_time[64];
     char output_file[128];
     char output_file_nas[128];
@@ -162,16 +174,6 @@ int main(int argc, char* argv[])
     // 指定文件路径
     snprintf(output_file, sizeof(output_file), "%s%s", data_dir.c_str(), file_name_time); // 构建完整的文件路径
     snprintf(output_file_nas, sizeof(output_file_nas), "%s%s", data_nas_dir.c_str(), file_name_time); // 构建完整的文件路径
-
-    // Initialize USB ports
-    usb_serial_GuanDao = USB_init(usb_device_GuanDao);
-   
-    if (usb_serial_GuanDao < 0) 
-    {
-        LOG(ERROR) << "Failed to initialize GuanDao USB serial: " << strerror(errno);
-        cerr << "Failed to initialize GuanDao USB serial." << endl;
-        return -1;
-    }
 
     usb_serial_CiLiYi = USB_init(usb_device_CiLiYi);
     
@@ -183,6 +185,30 @@ int main(int argc, char* argv[])
     }
 
     signal(SIGINT, signal_handler);
+    
+    if(params.if_GuanDao)
+    {
+      // 获取共享内存
+      shmid = shmget(SHM_KEY, SHM_SIZE, 0666);
+      if (shmid < 0) {
+          perror("shmget");
+          return 1;
+      }
+  
+      str = (uint8_t*)shmat(shmid, NULL, 0);
+      if (str == (uint8_t*)(-1)) {
+          perror("shmat");
+          return 1;
+      }
+  
+      // 打开信号量
+      sem = sem_open(SEM_NAME, 0);
+      if (sem == SEM_FAILED) {
+          perror("sem_open");
+          return 1;
+      }
+   }
+    
     // 获取程序启动时间
     auto start_time = std::chrono::high_resolution_clock::now();
 
@@ -202,9 +228,13 @@ int main(int argc, char* argv[])
         
         if (params.if_GuanDao == true)
         {
-            data_raw_GuanDao = read_process(usb_serial_GuanDao, GuanDao_total_bytes, GuanDao_frame_header);
-            //cout << "data_raw_GuanDao = "<< std::hex << std::setw(2) << std::setfill('0') << static_cast<int>(data_raw_GuanDao[8]) << std::endl;
-            DataExtractor_raw(data_raw_GuanDao, data_GuanDao);
+            sem_wait(sem);
+            // 从共享内存读取数据
+            data_GuanDao.resize(SHM_SIZE);
+            std::memcpy(data_GuanDao.data(), str, SHM_SIZE);
+
+            // 释放信号量
+            sem_post(sem);
         }
 
         data_raw_CiLiYi = read_process(usb_serial_CiLiYi, CiLiYi_total_bytes, CiLiYi_frame_header);
@@ -213,10 +243,6 @@ int main(int argc, char* argv[])
 
         // 检测数据中是否全是0
         check_and_increment(data_raw_CiLiYi,CiLiYi_total_bytes);
-        if (params.if_GuanDao == true)
-        {
-            check_and_increment(data_raw_GuanDao,GuanDao_total_bytes);
-        }
         
         data_CiLiYi = data_raw_CiLiYi;
         
@@ -259,16 +285,18 @@ int main(int argc, char* argv[])
 
         // Clear variables for next loop
         data_raw_CiLiYi.clear();
-        data_raw_GuanDao.clear();
+        //data_raw_GuanDao.clear();
         data_CiLiYi.clear();
         data_GuanDao.clear();
 
         // Sleep to prevent fast looping
         usleep(1000);  // Sleep for 1 milliseconds
     }
-
+    shmdt(str);
+    sem_close(sem);
+    sem_unlink(SEM_NAME);
     // Close USB serial ports
-    close(usb_serial_GuanDao);
+    //close(usb_serial_GuanDao);
     close(usb_serial_CiLiYi);
     google::ShutdownGoogleLogging();  // Close glog
 

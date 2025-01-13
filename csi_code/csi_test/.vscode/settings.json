@@ -1,0 +1,10 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "parameter_parser.h": "c",
+        "types.h": "c",
+        "cstddef": "c",
+        "functional": "c",
+        "stat.h": "c"
+    }
+}

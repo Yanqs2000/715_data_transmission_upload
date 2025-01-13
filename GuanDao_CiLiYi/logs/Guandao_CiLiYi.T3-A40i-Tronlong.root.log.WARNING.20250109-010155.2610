@@ -1,0 +1,43 @@
+Log file created at: 2025/01/09 01:01:55
+Running on machine: T3-A40i-Tronlong
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0109 01:01:55.066931  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:55.167825  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:55.260916  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:55.362217  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:55.461936  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:55.560667  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:55.660707  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:55.762125  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:55.862037  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:55.960726  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:56.060676  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:56.160657  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:56.260574  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:56.360896  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:56.460820  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:56.560668  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:56.660682  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:56.760753  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:56.860662  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:56.960642  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:57.060649  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:57.160661  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:57.260654  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:57.360651  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:57.460651  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:57.560513  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:57.660512  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:57.760628  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:57.860632  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:57.960624  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:58.060631  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:58.160655  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:58.260648  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:58.360631  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:58.460613  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:58.560621  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:58.660630  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:58.760666  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E0109 01:01:58.860656  2610 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+W0109 01:01:58.924067  2610 Guandao_CiLiYi.cpp:48] Program Interrupts

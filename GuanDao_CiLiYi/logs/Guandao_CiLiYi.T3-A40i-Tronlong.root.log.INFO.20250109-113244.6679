@@ -1,0 +1,1866 @@
+Log file created at: 2025/01/09 11:32:44
+Running on machine: T3-A40i-Tronlong
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0109 11:32:44.969528  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.974924  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.975209  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.975433  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.975656  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.975872  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.976078  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.976285  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.976486  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.976689  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.976886  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.977079  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.977268  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.977459  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.977646  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.977835  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.978035  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.978236  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.978432  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.978626  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.978816  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.979008  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.979198  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.979395  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.979590  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.979787  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.979986  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.980180  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.980372  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.980568  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.980758  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.980950  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.981149  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.981344  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.981534  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.981724  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.981918  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.982110  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.982302  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.982491  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.982681  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.982872  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.983057  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.983247  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.983438  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.983626  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.983971  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.984247  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.984452  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.984647  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.984841  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.985029  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.985217  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.985404  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.985582  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.986008  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.986229  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.986438  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.986814  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.987017  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.987197  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.987371  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.987545  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+E0109 11:32:44.987718  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:44.988723  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:45.074615  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:45.075255  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:45.174629  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:45.175349  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:45.274619  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:45.275372  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:45.374595  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:45.375164  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:45.474614  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:45.475368  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:45.574615  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:45.575337  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:45.674638  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:45.675408  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:45.774616  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:45.775360  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:45.874617  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:45.875337  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:45.974596  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:45.975185  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:46.074608  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:46.075331  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:46.174612  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:46.175338  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:46.274552  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:46.275152  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:46.374605  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:46.375330  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:46.474606  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:46.475346  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:46.574584  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:46.575161  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:46.674618  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:46.675344  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:46.774580  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:46.775148  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:46.874595  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:46.875316  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:46.974596  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:46.975315  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:47.074571  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:47.075187  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:47.174615  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:47.175333  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:47.274600  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:47.275315  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:47.374568  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:47.375167  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:47.474581  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:47.475306  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:47.574615  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:47.575333  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:47.674566  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:47.675151  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:47.774583  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:47.775445  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:47.874662  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:47.875339  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:47.974567  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:47.975232  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:48.074574  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:48.075304  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:48.174576  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:48.175302  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:48.274550  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:48.275141  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:48.374572  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:48.375308  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:48.474568  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:48.475296  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:48.574576  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:48.575168  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:48.674559  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:48.675273  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:48.774572  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:48.775276  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:48.874550  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:48.875141  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:48.974570  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:48.975471  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:49.074558  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:49.075145  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:49.174563  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:49.176128  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:49.274559  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:49.276149  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:49.374569  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:49.375916  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:49.474561  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:49.476171  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:49.574594  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:49.576195  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:49.674533  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:49.676223  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:49.774554  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:49.775259  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:49.874545  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:49.875247  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:49.974534  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:49.975104  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:50.074543  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:50.075248  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:50.174535  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:50.175267  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:50.274539  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:50.275168  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:50.374588  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:50.375350  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:50.474542  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:50.475251  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:50.574537  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:50.575178  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:50.674538  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:50.676311  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:50.774534  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:50.776072  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:50.874517  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:50.875732  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:50.974526  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:50.976096  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:51.074873  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:51.077478  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:51.174511  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:51.175110  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:51.274485  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:51.275110  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:51.374512  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:51.375151  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:51.474522  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:51.475231  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:51.574527  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:51.575387  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:51.674505  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:51.675086  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:51.774531  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:51.775276  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:51.874526  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:51.875248  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:51.974524  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:51.975112  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:52.074524  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:52.075276  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:52.174520  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:52.175452  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:52.274493  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:52.275265  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:52.374464  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:52.375075  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:52.474520  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:52.475292  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:52.574538  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:52.575150  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:52.674515  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:52.675287  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:52.774518  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:52.775239  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:52.874500  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:52.875082  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:52.974514  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:52.975272  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:53.074510  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:53.075260  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:53.174480  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:53.175256  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:53.274508  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:53.275266  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:53.374501  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:53.375211  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:53.474478  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:53.475071  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:53.574502  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:53.575366  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:53.674512  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:53.675093  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:53.774497  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:53.775220  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:53.874496  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:53.875209  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:53.974476  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:53.975039  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:54.074529  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:54.075249  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:54.174494  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:54.175212  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:54.274471  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:54.275056  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:54.374486  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:54.375217  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:54.474485  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:54.475204  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:54.574469  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:54.577776  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:54.674481  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:54.675529  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:54.774437  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:54.775099  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:54.874466  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:54.875098  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:54.974514  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:54.975246  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:55.074476  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:55.075202  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:55.174469  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:55.175161  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:55.274475  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:55.275578  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:55.374475  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:55.375231  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:55.474458  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:55.475060  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:55.574479  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:55.575201  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:55.674479  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:55.675211  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:55.774456  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:55.775030  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:55.874473  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:55.875213  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:55.974465  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:55.975216  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:56.074447  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:56.075059  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:56.174463  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:56.175192  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:56.274410  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:56.275008  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:56.374464  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:56.375203  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:56.474463  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:56.475318  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:56.574438  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:56.575039  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:56.674456  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:56.675184  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:56.774457  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:56.775188  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:56.875479  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:56.876456  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:56.974440  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:56.975190  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:57.074450  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:57.075196  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:57.174437  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:57.175024  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:57.274456  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:57.275179  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:57.374461  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:57.375172  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:57.474431  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:57.475050  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:57.574463  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:57.575196  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:57.674459  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:57.675189  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:57.774417  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:57.775009  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:57.874436  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:57.875142  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:57.974435  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:57.975137  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:58.074411  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:58.075011  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:58.174430  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:58.175123  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:58.274425  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:58.275130  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:58.374409  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:58.374974  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:58.474426  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:58.475155  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:58.574384  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:58.701701  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:58.703568  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:58.704282  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:58.774427  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:58.775169  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:58.874394  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:58.874989  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:58.974418  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:58.975153  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:59.074429  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:59.075131  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:59.174418  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:59.175241  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:59.274413  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:59.275173  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:59.374435  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:59.375300  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:59.474398  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:59.474983  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:59.574419  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:59.577750  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:59.674408  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:59.675166  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:59.774405  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:59.774991  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:59.874418  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:59.875140  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:32:59.974406  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:32:59.975129  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:00.074374  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:00.074975  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:00.174396  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:00.175097  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:00.274398  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:00.275102  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:00.374378  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:00.374959  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:00.474411  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:00.475147  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:00.574396  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:00.575093  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:00.674383  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:00.674963  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:00.774395  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:00.775126  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:00.874370  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:00.875183  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:00.974386  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:00.975085  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:01.074384  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:01.075085  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:01.174377  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:01.174959  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:01.274397  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:01.275424  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:01.374393  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:01.375147  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:01.474362  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:01.474958  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:01.574374  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:01.575102  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:01.674381  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:01.675146  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:01.774372  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:01.774971  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:01.874385  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:01.875106  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:01.974398  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:01.975127  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:02.074394  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:02.075003  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:02.174373  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:02.175099  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:02.274382  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:02.275244  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:02.374372  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:02.374949  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:02.474377  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:02.475131  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:02.574373  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:02.575094  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:02.674366  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:02.675009  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:02.774376  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:02.775126  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:02.874408  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:02.875129  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:02.974365  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:02.974952  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:03.074369  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:03.075147  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:03.174342  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:03.174995  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:03.274348  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:03.275079  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:03.374292  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:03.374898  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:03.474337  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:03.474996  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:03.574383  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:03.575073  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:03.674358  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:03.675110  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:03.774317  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:03.774904  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:03.874563  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:03.875344  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:03.974339  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:03.975126  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:04.074380  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:04.075096  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:04.174351  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:04.175088  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:04.274350  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:04.275084  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:04.374330  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:04.374900  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:04.474339  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:04.475080  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:04.574333  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:04.579010  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:04.674326  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:04.674939  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:04.774338  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:04.775058  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:04.874337  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:04.875051  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:04.974320  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:04.975037  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:05.074334  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:05.075196  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:05.174283  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:05.174914  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:05.274327  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:05.275003  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:05.374325  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:05.375051  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:05.474325  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:05.474886  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:05.574331  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:05.575040  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:05.674346  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:05.675164  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:05.774304  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:05.774937  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:05.874322  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:05.875044  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:05.974316  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:05.975044  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:06.074304  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:06.074896  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:06.174321  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:06.175055  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:06.274273  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:06.274924  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:06.374305  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:06.374969  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:06.474311  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:06.475229  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:06.574309  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:06.575029  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:06.674284  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:06.674863  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:06.774317  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:06.775022  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:06.874334  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:06.875187  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:06.974282  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:06.974988  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:07.074301  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:07.075161  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:07.174340  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:07.175047  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:07.274289  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:07.274885  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:07.374305  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:07.375033  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:07.474306  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:07.475039  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:07.574260  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:07.574807  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:07.674291  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:07.675143  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:07.774305  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:07.775032  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:07.874280  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:07.874888  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:07.974310  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:07.975414  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:08.074290  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:08.074904  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:08.174285  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:08.175016  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:08.274282  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:08.275019  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:08.374291  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:08.374897  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:08.474282  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:08.475135  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:08.574271  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:08.575115  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:08.674249  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:08.674942  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:08.774269  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:08.775167  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:08.874280  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:08.874998  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:08.974254  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:08.974840  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:09.074275  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:09.075047  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:09.174275  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:09.175009  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:09.274252  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:09.274827  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:09.374264  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:09.374974  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:09.474272  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:09.474988  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:09.574244  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:09.577243  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:09.674264  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:09.675741  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:09.774266  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:09.775811  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:09.874243  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:09.875531  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:09.974253  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:09.975844  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:10.074265  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:10.079288  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:10.174244  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:10.175982  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:10.274252  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:10.274971  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:10.374267  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:10.374871  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:10.474254  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:10.475677  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:10.574251  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:10.575742  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:10.674263  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:10.675748  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:10.774232  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:10.775661  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:10.874260  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:10.875865  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:10.974248  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:10.975687  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:11.074240  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:11.075712  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:11.174243  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:11.175720  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:11.276929  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:11.278241  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:11.374240  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:11.375698  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:11.474225  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:11.475694  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:11.574224  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:11.575520  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:11.674249  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:11.675684  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:11.774224  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:11.775827  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:11.874248  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:11.875622  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:11.974233  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:11.975721  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:12.074230  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:12.075903  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:12.174209  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:12.175756  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:12.274237  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:12.275715  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:12.374451  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:12.375486  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:12.474217  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:12.475783  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:12.574226  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:12.575806  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:12.674286  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:12.676108  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:12.774237  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:12.774966  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:12.874217  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:12.874941  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:12.974282  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:12.974905  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:13.074223  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:13.074972  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:13.174224  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:13.174952  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:13.274219  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:13.274818  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:13.374217  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:13.374929  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:13.474216  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:13.474929  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:13.574223  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:13.574808  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:13.674208  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:13.674937  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:13.774214  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:13.775070  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:13.874202  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:13.874763  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:13.974202  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:13.974925  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:14.074203  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:14.074934  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:14.174176  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:14.174772  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:14.274202  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:14.275120  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:14.374191  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:14.374920  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:14.474176  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:14.474740  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:14.574198  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:14.577845  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:14.674222  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:14.676064  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:14.774185  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:14.774832  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:14.874195  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:14.874915  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:14.974202  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:14.974860  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:15.074182  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:15.074857  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:15.174182  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:15.174893  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:15.274307  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:15.274963  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:15.374172  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:15.374855  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:15.474176  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:15.474887  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:15.574180  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:15.574798  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:15.674139  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:15.674757  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:15.774178  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:15.774894  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:15.874181  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:15.874857  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:15.974176  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:15.974900  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:16.074172  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:16.074983  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:16.174168  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:16.174868  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:16.274364  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:16.274998  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:16.374171  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:16.374891  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:16.474171  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:16.474745  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:16.574152  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:16.574868  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:16.674156  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:16.675019  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:16.774168  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:16.774729  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:16.874130  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:16.874780  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:16.974176  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:16.974872  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:17.074141  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:17.074821  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:17.174163  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:17.175132  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:17.274583  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:17.275221  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:17.374151  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:17.374840  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:17.474152  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:17.474876  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:17.574211  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:17.574898  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:17.674149  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:17.675076  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:17.774142  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:17.774868  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:17.874161  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:17.874820  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:17.974160  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:17.974849  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:18.074141  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:18.074858  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:18.174153  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:18.174808  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:18.274137  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:18.274832  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:18.374135  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:18.374847  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:18.474150  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:18.474787  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:18.574126  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:18.574842  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:18.674125  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:18.674849  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:18.774149  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:18.774765  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:18.874161  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:18.874873  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:18.974087  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:18.974758  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:19.074148  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:19.074846  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:19.174202  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:19.175150  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:19.274622  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:19.275556  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:19.384092  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:19.384809  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:19.474171  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:19.474859  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:19.574152  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:19.577518  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:19.674114  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:19.674723  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:19.774137  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:19.774839  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:19.874437  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:19.875406  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:19.974097  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:19.974695  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:20.074108  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:20.074806  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:20.174693  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:20.175328  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:20.274096  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:20.274878  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:20.374120  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:20.375715  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:20.474114  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:20.475840  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:20.574244  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:20.575659  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:20.674104  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:20.675661  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:20.774129  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:20.775880  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:20.874092  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:20.875627  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:20.974107  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:20.974761  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:21.074127  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:21.075753  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:21.174098  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:21.174747  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:21.274459  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:21.277082  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:21.374164  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:21.375053  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:21.474100  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:21.474824  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:21.574095  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:21.574805  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:21.674096  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:21.674718  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:21.774106  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:21.774804  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:21.874172  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:21.874963  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:21.974107  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:21.974864  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:22.074105  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:22.074829  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:22.174108  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:22.174798  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:22.274108  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:22.274739  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:22.374112  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:22.374943  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:22.474237  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:22.474974  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:22.574100  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:22.574791  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:22.674114  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:22.675572  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:22.774098  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:22.775751  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:22.874063  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:22.875450  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:22.974066  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:22.975525  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:23.074059  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:23.075428  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:23.174067  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:23.175488  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:23.274065  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:23.276497  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:23.374007  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:23.374503  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:23.474056  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:23.474746  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:23.574065  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:23.575677  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:23.674078  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:23.675732  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:23.774056  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:23.774730  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:23.874058  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:23.874737  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:23.974089  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:23.974720  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:24.074004  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:24.074553  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:24.174031  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:24.174705  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:24.274078  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:24.274751  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:24.374053  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:24.374765  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:24.474020  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:24.474645  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:24.574079  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:24.574687  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:24.674052  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:24.674921  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:24.774019  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:24.774736  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:24.874056  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:24.874815  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:24.974045  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:24.974756  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:25.074162  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:25.074739  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:25.174038  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:25.174616  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:25.274039  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:25.274878  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:25.374543  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:25.375849  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:25.474015  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:25.474586  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:25.574054  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:25.574743  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:25.674077  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:25.674810  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:25.774025  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:25.774688  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:25.874045  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:25.874734  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:25.974050  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:25.974704  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:26.074049  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:26.074676  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:26.174027  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:26.174726  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:26.274080  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:26.274751  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:26.374042  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:26.374745  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:26.473980  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:26.474550  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:26.574165  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:26.575044  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:26.674012  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:26.674686  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:26.773973  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:26.774524  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:26.874046  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:26.874682  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:26.974020  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:26.974768  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:27.074040  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:27.074745  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:27.174021  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:27.174633  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:27.274015  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:27.274726  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:27.374046  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:27.374751  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:27.474032  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:27.474651  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:27.574005  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:27.574705  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:27.674039  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:27.674726  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:27.774020  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:27.775442  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:27.873958  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:27.874536  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:27.974010  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:27.974651  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:28.074021  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:28.074630  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:28.174017  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:28.174831  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:28.273980  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:28.274556  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:28.374035  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:28.374693  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:28.473987  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:28.474689  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:28.573997  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:28.574573  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:28.673985  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:28.674649  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:28.773995  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:28.774575  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:28.874540  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:28.875349  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:28.973978  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:28.974648  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:29.073953  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:29.074551  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:29.174000  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:29.174645  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:29.273969  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:29.274657  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:29.373934  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:29.374500  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:29.474013  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:29.474675  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:29.573978  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:29.577749  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:29.674141  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:29.674949  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:29.774094  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:29.775676  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:29.873991  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:29.875524  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:29.973982  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:29.976001  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:30.074005  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:30.075604  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:30.174003  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:30.174760  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:30.274031  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:30.274780  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:30.374046  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:30.374635  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:30.473987  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:30.474674  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:30.574014  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:30.574687  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:30.674010  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:30.674602  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:30.774039  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:30.774785  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:30.873986  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:30.874714  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:30.973937  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:30.974539  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:31.073938  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:31.074644  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:31.174028  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:31.175640  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:31.274705  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:31.275382  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:31.374123  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:31.375576  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:31.474053  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:31.475857  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:31.574000  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:31.574564  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:31.674039  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:31.674726  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:31.774082  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:31.774770  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:31.874022  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:31.874722  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:31.974088  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:31.974833  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:32.074020  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:32.074676  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:32.173985  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:32.174656  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:32.273995  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:32.274600  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:32.373986  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:32.374547  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:32.473979  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:32.474692  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:32.573997  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:32.574612  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:32.674041  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:32.674693  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:32.773963  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:32.774660  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:32.873991  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:32.874854  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:32.973978  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:32.974598  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:33.073956  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:33.074649  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:33.173955  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:33.174557  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:33.273938  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:33.274535  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:33.373898  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:33.374473  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:33.473940  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:33.474563  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:33.573940  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:33.574586  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:33.673902  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:33.674479  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:33.773976  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:33.774662  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:33.873925  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:33.874570  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:33.973886  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:33.974551  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:34.074004  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:34.074709  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:34.173928  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:34.174598  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:34.273922  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:34.274502  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:34.373977  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:34.374634  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:34.473935  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:34.474609  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:34.573936  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:34.576637  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:34.673990  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:34.674706  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:34.773916  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:34.774605  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:34.873967  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:34.874660  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:34.973974  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:34.974617  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:35.073920  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:35.074609  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:35.173942  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:35.174649  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:35.273959  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:35.274672  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:35.373926  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:35.374722  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:35.473939  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:35.474735  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:35.573938  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:35.574672  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:35.673879  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:35.674461  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:35.773895  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:35.774502  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:35.873907  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:35.874500  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:35.973860  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:35.974409  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:36.073942  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:36.074640  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:36.173902  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:36.174706  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:36.273864  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:36.274436  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:36.373924  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:36.374533  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:36.473901  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:36.474495  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:36.573848  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:36.574484  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:36.674101  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:36.675001  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:36.773885  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:36.774601  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:36.873994  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:36.874612  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:36.973930  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:36.974592  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:37.073928  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:37.074644  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:37.174002  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:37.174628  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:37.273944  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:37.274621  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:37.373888  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:37.374614  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:37.473860  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:37.474471  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:37.573952  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:37.574656  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:37.673883  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:37.674549  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:37.773929  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:37.777464  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:37.873870  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:37.874595  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:37.973830  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:37.974403  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:38.073863  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:38.074462  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:38.173873  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:38.174477  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:38.273818  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:38.274546  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:38.373857  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:38.374429  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:38.473857  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:38.474447  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:38.573813  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:38.574484  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:38.673906  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:38.674602  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:38.773897  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:38.774502  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:38.873837  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:38.874433  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:38.973886  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:38.974555  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:39.073865  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:39.074527  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:39.173821  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:39.174449  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:39.273778  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:39.274453  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:39.373878  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:39.374667  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:39.473783  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:39.474423  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:39.573925  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:39.577639  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:39.673877  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:39.674559  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:39.773765  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:39.774526  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:39.874989  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:39.875679  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:39.973843  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:39.974519  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:40.073776  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:40.074422  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:40.173830  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:40.174777  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:40.273756  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:40.274431  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:40.373769  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:40.374543  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:40.473836  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:40.474458  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:40.573772  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:40.574345  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:40.673856  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:40.674575  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:40.773837  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:40.774598  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:40.873751  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:40.874421  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:40.973763  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:40.974494  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:41.073781  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:41.074527  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:41.173769  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:41.174489  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:41.273856  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:41.274554  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:41.373971  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:41.374723  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:41.473745  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:41.474345  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:41.573834  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:41.574561  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:41.673828  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:41.674424  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:41.773739  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:41.774305  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:41.873847  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:41.874570  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:41.973771  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:41.974398  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:42.073738  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:42.074371  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:42.173910  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:42.174618  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:42.273768  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:42.274425  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:42.373739  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:42.374354  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:42.473763  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:42.474416  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:42.573726  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:42.574456  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:42.673735  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:42.674362  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:42.773767  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:42.774420  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:42.873729  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:42.874361  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:42.973722  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:42.974359  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:43.073760  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:43.074406  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:43.173736  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:43.174400  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:43.274152  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:43.274904  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:43.373708  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:43.374336  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:43.473730  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:43.474388  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:43.573833  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:43.574512  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:43.673750  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:43.675299  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:43.773727  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:43.774351  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:43.873729  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:43.874326  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:43.973753  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:43.974365  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:44.073730  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:44.074357  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:44.173779  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:44.174507  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:44.273743  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:44.274392  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:44.373761  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:44.374480  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:44.474088  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:44.474855  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:44.573748  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:44.574450  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:44.673750  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:44.770833  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:44.773774  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:44.774454  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:44.873745  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:44.875365  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:44.973773  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:44.975090  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:45.073736  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:45.075126  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:45.173694  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:45.174954  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:45.273690  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:45.274974  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:45.373724  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:45.375049  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:45.473701  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:45.475072  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:45.573693  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:45.575029  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:45.673738  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:45.675405  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:45.773705  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:45.775168  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:45.874023  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:45.875666  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:45.973718  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:45.975183  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:46.073698  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:46.074339  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:46.173720  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:46.174508  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:46.273718  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:46.274353  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:46.373677  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:46.374469  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:46.473693  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:46.474364  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:46.573709  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:46.574342  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:46.673661  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:46.674284  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:46.773684  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:46.774358  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:46.873704  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:46.874328  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:46.973683  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:46.974380  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:47.073724  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:47.074493  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:47.173699  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:47.174525  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:47.273679  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:47.274329  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:47.373687  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:47.374325  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:47.473686  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:47.474287  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:47.573661  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:47.574312  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:47.673697  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:47.674350  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:47.773723  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:47.774494  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:47.873657  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:47.874310  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:47.973688  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:47.974390  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:48.073674  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:48.074326  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:48.173662  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:48.174309  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:48.273686  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:48.274495  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:48.373647  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:48.374505  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:48.473646  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:48.474403  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:48.573715  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:48.574532  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:48.673660  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:48.674301  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:48.774118  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:48.774813  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:48.873680  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:48.874311  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:48.973649  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:48.974284  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:49.073654  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:49.074280  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:49.173669  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:49.174297  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:49.273635  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:49.274400  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:49.373639  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:49.374250  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:49.473668  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:49.474306  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:49.573645  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:49.574306  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:49.673668  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:49.676836  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:49.773686  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:49.774415  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:49.873633  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:49.874233  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:49.973657  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:49.974277  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:50.073674  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:50.074397  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:50.173628  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:50.174285  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:50.273665  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:50.274356  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:50.373636  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:50.374275  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:50.473620  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:50.474229  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:50.573654  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:50.574293  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:50.673632  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:50.674268  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:50.773626  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:50.774271  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:50.873644  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:50.874281  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:50.973610  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:50.974205  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:51.073611  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:51.074223  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:51.173635  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:51.174288  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:51.273649  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:51.274515  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:51.373658  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:51.374923  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:51.473647  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:51.474318  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:51.573617  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:51.574291  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:51.673650  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:51.674436  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:51.773631  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:51.774286  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:51.873587  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:51.874186  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:51.973640  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:51.974324  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:52.073603  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:52.074265  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:52.173595  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:52.174227  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:52.273629  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:52.274302  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:52.373955  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:52.374625  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:52.473596  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:52.474205  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:52.573634  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:52.574308  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:52.673638  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:52.674381  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:52.773568  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:52.774163  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:52.873627  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:52.874334  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:52.973639  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:52.974370  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:53.073587  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:53.074203  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:53.173614  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:53.174279  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:53.273626  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:53.274369  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:53.373579  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:53.374199  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:53.473616  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:53.474294  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:53.573575  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:53.574225  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:53.673566  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:53.674178  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:53.773607  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:53.774289  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:53.873581  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:53.874212  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:53.973557  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:53.974174  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:54.073614  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:54.074272  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:54.173583  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:54.174321  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:54.273605  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:54.274273  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:54.373620  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:54.374385  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:54.473556  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:54.474174  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:54.573599  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:54.574283  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:54.673573  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:54.676774  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:54.773574  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:54.774264  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:54.873590  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:54.874255  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:54.973568  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:54.975823  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:55.073554  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:55.074198  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:55.173600  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:55.174253  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:55.273555  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:55.274227  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:55.373545  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:55.374176  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:55.473578  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:55.474229  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:55.573601  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:55.574491  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:55.673553  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:55.674348  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:55.773581  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:55.774343  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:55.873553  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:55.874213  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:55.973538  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:55.974201  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:56.073567  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:56.074208  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:56.173557  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:56.174242  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:56.273553  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:56.274250  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:56.373579  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:56.374326  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:56.473551  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:56.474220  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:56.573570  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:56.574218  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:56.673584  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:56.674360  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:56.773519  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:56.774127  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:56.873512  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:56.874297  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:56.973579  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:56.974541  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:57.073511  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:57.074225  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:57.173565  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:57.174232  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:57.273551  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:57.274202  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:57.373514  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:57.374119  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:57.473547  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:57.474180  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:57.573591  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:57.576403  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:57.673507  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:57.674116  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:57.773550  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:57.774223  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:57.873545  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:57.874200  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:57.973501  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:57.974141  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:58.073547  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:58.074204  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:58.173576  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:58.174348  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:58.273510  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:58.274142  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:58.373529  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:58.374161  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:58.473546  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:58.474282  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:58.573513  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:58.574169  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:58.673532  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:58.674176  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:58.773504  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:58.774137  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:58.873535  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:58.874161  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:58.973556  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:58.974355  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:59.073487  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:59.074159  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:59.173547  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:59.174340  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:59.273540  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:59.274317  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:59.373495  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:59.374146  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:59.473567  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:59.474254  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:59.573521  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:59.574375  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:59.673509  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:59.674233  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:59.773521  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:59.774278  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:59.873538  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:59.874476  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:33:59.973558  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:33:59.974329  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:00.073508  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:00.074157  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:00.173516  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:00.174252  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:00.273468  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:00.274121  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:00.373505  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:00.374142  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:00.473495  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:00.474152  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:00.573482  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:00.574128  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:00.673506  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:00.674190  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:00.773530  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:00.774307  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:00.873458  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:00.874084  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:00.973501  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:00.974143  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:01.073484  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:01.074136  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:01.173496  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:01.174202  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:01.273507  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:01.274334  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:01.373464  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:01.374233  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:01.473488  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:01.474243  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:01.573516  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:01.574273  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:01.673457  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:01.674177  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:01.773702  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:01.774454  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:01.873513  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:01.874466  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:01.973457  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:01.974099  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:02.073491  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:02.074138  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:02.173506  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:02.174265  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:02.273463  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:02.274116  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:02.373487  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:02.374157  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:02.473491  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:02.474210  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:02.573433  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:02.574172  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:02.673478  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:02.674117  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:02.773484  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:02.774331  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:02.873952  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:02.875481  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:02.973470  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:02.974776  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:03.073498  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:03.074250  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:03.173436  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:03.174074  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:03.273473  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:03.274129  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:03.373441  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:03.374064  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:03.473460  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:03.474084  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:03.573498  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:03.574277  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:03.673444  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:03.674139  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:03.773463  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:03.774251  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:03.873474  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:03.874272  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:03.973435  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:03.974084  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:04.073468  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:04.074294  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:04.173466  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:04.174232  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:04.273466  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:04.274207  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:04.373447  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:04.374048  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:04.473460  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:04.474225  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:04.573411  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:04.574010  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:04.674579  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:04.675411  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:04.773465  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:04.789486  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:04.873457  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:04.874290  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:04.973445  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:04.974249  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:05.073448  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:05.074154  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:05.173420  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:05.174077  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:05.273423  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:05.274060  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:05.373461  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:05.374248  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:05.473413  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:05.474049  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:05.573437  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:05.574064  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:05.673414  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:05.674170  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:05.773453  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:05.774086  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:05.873433  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:05.874127  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:05.973456  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:05.974273  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:06.073423  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:06.074057  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:06.173466  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:06.174437  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:06.273399  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:06.274052  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:06.373432  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:06.374337  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:06.473435  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:06.474220  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:06.573443  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:06.574195  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:06.673424  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:06.674072  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:06.773437  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:06.774201  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:06.873437  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:06.874191  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:06.973414  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:06.974031  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:07.073455  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:07.074216  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:07.173378  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:07.174007  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:07.273427  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:07.274053  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:07.373433  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:07.374169  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:07.473387  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:07.474155  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:07.573400  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:07.574034  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:07.673413  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:07.674180  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:07.773384  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:07.774044  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:07.873414  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:07.874048  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:07.973413  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:07.974162  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:08.073388  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:08.074002  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:08.173414  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:08.174412  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:08.273993  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:08.274899  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:08.373392  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:08.374034  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:08.473415  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:08.474210  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:08.573364  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:08.574116  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:08.673398  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:08.674044  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:08.773413  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:08.774163  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:08.873365  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:08.874039  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:08.973385  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:08.974031  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:09.073391  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:09.074143  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:09.173360  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:09.174022  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:09.273391  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:09.274214  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:09.373404  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:09.374262  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:09.473361  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:09.474089  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:09.573379  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:09.574084  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:09.673399  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:09.674242  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:09.773388  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:09.774274  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:09.873370  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:09.874071  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:09.973395  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:09.974150  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:10.073390  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:10.074234  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:10.173360  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:10.174062  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:10.273393  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:10.274138  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:10.373310  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:10.374152  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:10.473381  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:10.474153  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:10.573338  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:10.576400  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:10.673369  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:10.673985  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:10.773381  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:10.774132  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:10.873343  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:10.874012  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:10.973356  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:10.973995  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:11.073379  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:11.074119  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:11.173372  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:11.174129  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:11.273350  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:11.273959  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:11.373375  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:11.374126  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:11.473379  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:11.474251  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:11.573356  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:11.573979  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:11.673367  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:11.674144  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:11.773365  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:11.774137  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:11.873340  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:11.873947  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:11.973362  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:11.974148  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:12.073312  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:12.073936  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:12.173352  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:12.173996  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:12.273355  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:12.274077  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:12.373354  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:12.374109  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:12.473337  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:12.473955  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:12.573356  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:12.574119  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:12.673354  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:12.674270  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:12.773322  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:12.774019  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:12.873325  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:12.873994  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:12.973336  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:12.973989  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:13.073351  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:13.074098  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:13.173344  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:13.174072  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:13.273337  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:13.273937  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:13.373344  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:13.374101  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:13.473331  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:13.474079  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:13.573318  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:13.573927  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:13.673359  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:13.674113  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:13.773339  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:13.774340  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:13.873313  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:13.873934  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:13.973332  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:13.974077  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:14.073333  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:14.074059  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:14.173310  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:14.174049  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:14.273329  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:14.274083  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:14.373286  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:14.374006  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:14.473325  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:14.473976  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:14.573330  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:14.574082  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:14.673328  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:14.674091  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:14.773312  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:14.776706  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat
+E0109 11:34:14.873276  6679 Thread_ReadUSB.cpp:149] data CiLiYi mismatch
+I0109 11:34:14.874248  6679 Guandao_CiLiYi.cpp:277] Data written to /mnt/data/GuanDao_CiLiYi/data/CX_20250109_113244.dat

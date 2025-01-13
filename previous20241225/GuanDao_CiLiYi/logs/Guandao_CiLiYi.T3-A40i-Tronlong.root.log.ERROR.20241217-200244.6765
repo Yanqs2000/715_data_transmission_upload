@@ -1,0 +1,39 @@
+Log file created at: 2024/12/17 20:02:44
+Running on machine: T3-A40i-Tronlong
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E1217 20:02:44.414033  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.422401  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.424647  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.427626  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.428318  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.428839  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.429374  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.430073  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.430720  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.431263  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.431699  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.432119  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.432662  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.433069  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.433454  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.433796  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.434152  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.434510  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.434947  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.435436  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.435920  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.436394  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.436920  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.441720  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.442207  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.442426  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.443733  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.445372  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.445755  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.446070  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.447396  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.447692  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.447906  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.448290  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.449716  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
+E1217 20:02:44.451628  6765 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
