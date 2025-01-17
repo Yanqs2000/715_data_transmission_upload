@@ -1,5 +1,0 @@
-Log file created at: 2024/12/17 16:20:23
-Running on machine: T3-A40i-Tronlong
-Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
-E1217 16:20:23.750166 20329 Thread_ReadUSB.cpp:146] data CiLiYi mismatch
-E1217 16:20:23.754570 20329 Thread_ReadUSB.cpp:146] data CiLiYi mismatch

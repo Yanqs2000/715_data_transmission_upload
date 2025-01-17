@@ -112,7 +112,7 @@ int USB_init_GuanDao(const char* filename)//接受一个字符指针 filename，
         return -1;
     }
 
-    // 设置串口的波特率为9600。cfsetospeed 和 cfsetispeed 分别设置输出和输入波特率。
+    // 设置串口的波特率。cfsetospeed 和 cfsetispeed 分别设置输出和输入波特率。
     cfsetospeed(&tty, B115200);
     cfsetispeed(&tty, B115200);
     
@@ -476,7 +476,7 @@ uint8_t* read_process(int usb_serial, int total_bytes, const uint8_t* frame_head
 {
 
     uint8_t byte;
-    uint8_t buffer[1100]; 
+    uint8_t buffer[330]; 
     int buffer_index = 0;
 
     static uint8_t frame[110];
@@ -527,13 +527,15 @@ uint8_t* read_process(int usb_serial, int total_bytes, const uint8_t* frame_head
             if (found) 
             {
                 memcpy(frame, buffer, total_bytes); // 复制有效帧到frame
-                memmove(buffer, buffer + total_bytes, buffer_index - total_bytes); // 移除已处理的帧
+                memmove(buffer, buffer + total_bytes, sizeof(buffer) - total_bytes); // 移除已处理的帧
                 buffer_index -= total_bytes;
+                //printf("data match\n");
                 return frame;
             } 
             else 
             {
-                memmove(buffer, buffer + 1, --buffer_index); // Remove the first byte
+                memmove(buffer, buffer + 1, buffer_index - 1); // Remove the first byte
+                buffer_index--;
                 printf("data mismatch\n");
             }
         }

@@ -12,7 +12,8 @@ struct _Params {
     string      nas_dir;
     bool        if_nas;
     bool        if_GuanDao;
-    uint32_t    work_time;  
+    uint32_t    work_time;
+    bool        if_delete_start_command;  
 };// params结构体用于存储接收数据参数
 
 //获取当前时间作为文件名

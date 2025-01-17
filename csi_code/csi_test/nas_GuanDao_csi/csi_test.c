@@ -26,19 +26,20 @@
 #include "parameter_parser.h"
 #include "function.h"
 
-#define NETWORK_PORT 8080                      // 设定接收网络数据包的端口
+#define NETWORK_PORT 8082                      // 设定接收网络数据包的端口
 #define TOTAL_BYTES 110                        // 惯导总数110字节
 #define SHM_SIZE 22
 #define HEADER_SIZE 4                          // 帧头4字节
 #define FRAME_HEADER {0xAA, 0x55, 0x5A, 0xA5}  // 定义惯导帧头
 #define SHM_KEY 1234 // 固定的键值
 #define SEM_NAME "/my_semaphore"
+#define DATE_TIME_SIZE 22
+
 // 定义帧头
 uint8_t frame_header[HEADER_SIZE] = FRAME_HEADER;
-
-#define DATE_TIME_SIZE 22
 uint8_t GuanDao_frame[TOTAL_BYTES] = {0};
 uint8_t date_time[DATE_TIME_SIZE];
+uint8_t zeroArray[TOTAL_BYTES] ={0};           //全0数组，用于比较
 pthread_mutex_t guandao_mutex = PTHREAD_MUTEX_INITIALIZER;
 ParamsGuanDao paramsGuanDao;
 int serial_fd_GuanDao;
@@ -79,9 +80,19 @@ void* receive_guandao_data(void* arg)
             // 从串口读取数据
             uint8_t* new_GuanDao_frame = read_process(serial_fd_GuanDao, TOTAL_BYTES, frame_header, HEADER_SIZE);
             
-            pthread_mutex_lock(&guandao_mutex); // 锁定互斥量，保护数据
-            memcpy(GuanDao_frame, new_GuanDao_frame, TOTAL_BYTES);  // 将子线程读取到的最新数据保存到全局变量中
-            pthread_mutex_unlock(&guandao_mutex); // 解锁互斥量
+            if (new_GuanDao_frame != NULL)
+            {
+                pthread_mutex_lock(&guandao_mutex); // 锁定互斥量，保护数据
+                memcpy(GuanDao_frame, new_GuanDao_frame, TOTAL_BYTES);  // 将子线程读取到的最新数据保存到全局变量中
+                pthread_mutex_unlock(&guandao_mutex); // 解锁互斥量
+            }
+            else
+            {
+                pthread_mutex_lock(&guandao_mutex); // 锁定互斥量，保护数据
+                memset(GuanDao_frame, 0, TOTAL_BYTES); // 将所有元素设置为0
+                pthread_mutex_unlock(&guandao_mutex); // 解锁互斥量
+            }
+
         }
         usleep(100); // 防止CPU占用过高
     }
@@ -114,6 +125,11 @@ int main(int argc, char **argv)
 
     struct stat output_info;
     struct stat output_nas_info;
+
+    // 共享内存
+    int shmid;     // 共享内存id      
+    uint8_t *str;  // 将共享内存映射到进程的地址空间的指针
+    sem_t *sem;    // 信号量
 
     // 配置串口
     int serial_fd_FPGA = USB_init_FPGA(serial_device_FPGA);
@@ -200,8 +216,15 @@ int main(int argc, char **argv)
     {
         initial_command_file = fopen("/mnt/data/csi_code/csi_test/nas_GuanDao_csi/start_command", "r");
         size_t bytes_read = fread(initial_command_buffer, sizeof(uint8_t), sizeof(initial_command_buffer), initial_command_file);
+        
+        if (bytes_read != 32)
+        {
+            perror("command error");
+            return -1;
+        }
+        
         data_received = 1;
-        printf("read existed command\n");
+        printf("read existed command, command is %d bytes\n", bytes_read);
     }
     sleep(2);
 
@@ -287,24 +310,27 @@ int main(int argc, char **argv)
         }
     }
 
-    int shmid;
-    uint8_t *str;
-    sem_t *sem;
     shmid = shmget(SHM_KEY, SHM_SIZE, IPC_CREAT | 0666);
-    if (shmid < 0) {
+    if (shmid < 0) 
+    {
         perror("shmget");
         exit(1);
     }
+
     str = (uint8_t *)shmat(shmid, NULL, 0); // 共享内存连接
-    if (str == (uint8_t *)(-1)) {
+    if (str == (uint8_t *)(-1)) 
+    {
         perror("shmat");
         exit(1);
     }
+
     sem = sem_open(SEM_NAME, O_CREAT, 0644, 1);
-    if (sem == SEM_FAILED) {
+    if (sem == SEM_FAILED) 
+    {
         perror("sem_open");
         exit(1);
     }
+
     // 主线程等待子线程接收到正确的数据包
     while (!g_quit) 
     {
@@ -406,14 +432,21 @@ int main(int argc, char **argv)
                 g_quit = true;
             }
 
-            if (params.if_GuanDao == true) {
+            if (params.if_GuanDao == true) 
+            {
                 pthread_mutex_lock(&guandao_mutex); // 锁定互斥量，获取最新的惯导数据
-                if (GuanDao_frame == NULL) {
+
+                if (memcmp(GuanDao_frame, zeroArray, TOTAL_BYTES) == 0) 
+                {
                     memset(date_time, 0, sizeof(date_time)); // 将所有元素设置为0
-                } else {
+                } 
+                else 
+                {
                     DataExtractor_raw(GuanDao_frame, TOTAL_BYTES, date_time, sizeof(date_time));
                 }
+
                 size_t GuanDao_number = fwrite(date_time, sizeof(uint8_t), sizeof(date_time), file);
+                
                 if(params.if_CLY_process_communication)
                 {
                     sem_wait(sem);
@@ -423,7 +456,8 @@ int main(int argc, char **argv)
 
                 pthread_mutex_unlock(&guandao_mutex); // 解锁互斥量
 
-                if (GuanDao_number == 0) {
+                if (GuanDao_number == 0) 
+                {
                     printf("GuanDao data write error\n");
                     g_quit = true;
                 }
@@ -478,7 +512,7 @@ int main(int argc, char **argv)
 
     if (params.if_delete_start_command == true)
     {
-        if (remove("start_command") == 0) 
+        if (remove("/mnt/data/csi_code/csi_test/nas_GuanDao_csi/start_command") == 0) 
         {
             printf("File 'start_command' successfully deleted.\n");
         } 
@@ -487,6 +521,7 @@ int main(int argc, char **argv)
             perror("Error deleting file");
         }
     }
+
     shmdt(str);
     shmctl(shmid,IPC_RMID,NULL);
     sem_close(sem);

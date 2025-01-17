@@ -1,5 +1,5 @@
-#include "Thread_ReadUSB.h"
 #include <glog/logging.h>
+#include <gpiod.h>
 #include <termios.h>
 #include <iostream>
 #include <vector>
@@ -12,21 +12,40 @@
 #include <deque>
 #include <termios.h>
 #include <fstream>   // for std::ofstream
-
+#include <stdio.h>
+#include <dirent.h>
 #include <signal.h>
 #include <sys/ioctl.h>
 #include <linux/serial.h>
 #include <string>
 #include <sys/select.h>
+#include "DataExtractor.h"
+#include "Thread_ReadUSB.h"
+
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <chrono>  // for high_resolution_clock
+#include <iomanip>
+#include <numeric> // For std::accumulate
+#include "INIReader.h"
+#include <thread>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <netinet/in.h>
 
 using namespace std;
+
+#define GPIO_CHIP "/dev/gpiochip0" // GPIO 芯片
+#define GPIO_PH6 230 
+
+extern struct _Params params;
 
 // USB初始化
 int USB_init(const char* filename)//接受一个字符指针 filename，表示串口设备的文件名
 {
     // 假设usb_serial是您已经配置和打开的串口文件描述符
     // 使用open函数以只读模式打开指定的串口文件。O_NOCTTY 表示不将此设备设为控制终端，O_SYNC 表示同步读写。
-    int usb_serial = open(filename, O_RDONLY | O_NOCTTY | O_SYNC);
+    int usb_serial = open(filename, O_RDWR | O_NOCTTY | O_SYNC);
     if (usb_serial < 0) 
     {
         cerr << "Error opening usb_serial: " << strerror(errno) << endl;
@@ -53,7 +72,7 @@ int USB_init(const char* filename)//接受一个字符指针 filename，表示�
     tty.c_lflag = 0;                           //c_lflag和c_oflag设置为0，禁用特殊处理    
     tty.c_oflag = 0;
     tty.c_cc[VMIN] = 0;                        //VMIN设置至少接收0个字符
-    tty.c_cc[VTIME] = 1;                       //VTIME设置超时时间为x个十分之一秒
+    tty.c_cc[VTIME] = 2;                       //VTIME设置超时时间为x个十分之一秒
     tty.c_iflag &= ~(ICRNL | INLCR);  // 禁用 \r 到 \n 的转换,和tty.c_oflag = 0;功能相同
 
     tty.c_iflag &= ~(IXON | IXOFF | IXANY);    //禁用软件流控制（IXON, IXOFF）
@@ -165,55 +184,206 @@ vector<uint8_t> read_process(int usb_serial, size_t total_bytes, const vector<ui
     return frame;
 }
 
+// UDP 接收命令线程
+void udp_listener_thread()
+{
+    int udp_socket = socket(AF_INET, SOCK_DGRAM, 0);
+    if (udp_socket < 0) 
+    {
+        perror("UDP socket creation failed");
+        exit(EXIT_FAILURE);
+    }
 
-// vector<uint8_t> read_process(int usb_serial, size_t total_bytes, const vector<uint8_t> frame_header) 
-// {
-//     vector<uint8_t> buffer(total_bytes, 0);  // 默认填充全零
-//     ssize_t bytes_read = read(usb_serial, buffer.data(), total_bytes);
-//     string name;
+    struct sockaddr_in server_addr;
+    memset(&server_addr, 0, sizeof(server_addr));
+    server_addr.sin_family = AF_INET;
+    server_addr.sin_addr.s_addr = INADDR_ANY;  // Listen on all interfaces
+    server_addr.sin_port = htons(8081);  // Port for receiving the start command
 
-//     if (total_bytes == 60)
-//     {
-//         name = "CiLiYi";
-//     }
+    if (bind(udp_socket, (const struct sockaddr*)&server_addr, sizeof(server_addr)) < 0) 
+    {
+        perror("UDP bind failed");
+        exit(EXIT_FAILURE);
+    }
 
-//     if (total_bytes == 110)
-//     {
-//         name = "GuanDao";
-//     }
+    char initial_command_buffer[64];
+    char BiaoJiao_buffer[32];
+    struct sockaddr_in client_addr;
+    socklen_t len = sizeof(client_addr);
+    ofstream initial_command;
+    ofstream BiaoJiao;
+    ifstream BiaoJiao_read;
 
-//     if (bytes_read < 0) 
-//     {
-//         LOG(ERROR) << "Error while reading: " << name << " data "<< strerror(errno);
-//         std::cerr << "Error while reading: " << name << " data "<< strerror(errno) << std::endl;
+    cout << "start listening initial command" << endl;
+    while (true) 
+    {
+        ssize_t n = recvfrom(udp_socket, initial_command_buffer, sizeof(initial_command_buffer), 0, (struct sockaddr*)&client_addr, &len);
+        if (n > 0) 
+        {
+            initial_command_buffer[n] = '\0'; // Null-terminate received data
+            cout << "Received command" << endl;
 
-//         return buffer;  // 读取失败，返回全零
-//     } 
-//     else if (bytes_read == 0) 
-//     {
-//         std::cout << std::dec;
-//         cout << name << " is " << total_bytes << " bytes data, but no data receive" << endl;
-//         LOG(WARNING) << name << " is " << total_bytes << " bytes data, but no data receive";
-        
-//         return buffer;  // 无数据时返回全零
-//     } 
-//     else if (bytes_read < total_bytes) 
-//     {
-//         LOG(WARNING) << "Partial data received: " << bytes_read << " bytes.";
-//         // 截断未完全接收的数据
-//         buffer.resize(bytes_read);
-//         buffer.insert(buffer.end(), total_bytes - bytes_read, 0);  // 补齐全零
-//     }
+            if (strlen(initial_command_buffer) == 5)
+            {
+                if (access("/mnt/data/GuanDao_CiLiYi/GuanDao_CiLiYi_code/BiaoJiao", F_OK) == 0)
+                {
+                    if (initial_command_buffer[0] == 0x81 && initial_command_buffer[1] == 0x82 
+                    && initial_command_buffer[3] == 0x0D && initial_command_buffer[4] == 0x0A
+                    )
+                    {
+                        initial_command.open("/mnt/data/GuanDao_CiLiYi/GuanDao_CiLiYi_code/start_command", ios::binary | ios::trunc);
+                        // 将接收到的起始命令写入文件
+                        initial_command.write(initial_command_buffer, 5);
+                        // 关闭文件
+                        initial_command.close();
 
-//     // 检查帧头是否匹配
-//     if (!std::equal(frame_header.begin(), frame_header.end(), buffer.begin())) 
-//     {
-//         LOG(WARNING) << "Frame header mismatch.";
-//         return vector<uint8_t>(total_bytes, 0);  // 返回全零
-//     }
+                        // 打开标校文件进行读取
+                        BiaoJiao_read.open("/mnt/data/GuanDao_CiLiYi/GuanDao_CiLiYi_code/BiaoJiao", std::ios::binary);
 
-//     return buffer;
-// }
+                        // 检查文件是否成功打开
+                        if (!BiaoJiao_read.is_open()) 
+                        {
+                            std::cerr << "Failed to open file: start_command"<< std::endl;
+                            exit(EXIT_FAILURE);
+                        }
 
+                        BiaoJiao_read.read(BiaoJiao_buffer, 26);
+                        //printHex(BiaoJiao_buffer, 26);
+                        // 关闭文件
+                        BiaoJiao_read.close();  
+
+                        // 写入标校命令
+                        initial_command.open("/mnt/data/GuanDao_CiLiYi/GuanDao_CiLiYi_code/start_command", ios::binary | ios::app);
+                        // 将接收到的起始命令写入文件
+                        initial_command.write(BiaoJiao_buffer, 26);
+                        // 关闭文件
+                        initial_command.close();
+                        break;
+                    }
+                    else
+                    {
+                        // 数据包不符合要求
+                        cout << "Error! Received data packet does not match expected format or length(5)" << endl;
+                        cout << "please continue to receive right initial command" << endl; 
+                    }
+                }
+                else
+                {
+                    cout << "missing BiaoJiao parameter" << endl;
+                    cout << "please continue to receive right and complete initial command" << endl; 
+                }
+            }
+            else
+            {
+                if (initial_command_buffer[0] == 0x81 && initial_command_buffer[1] == 0x82 
+                && initial_command_buffer[3] == 0x0D && initial_command_buffer[4] == 0x0A && 
+                initial_command_buffer[5] == 0x4C && initial_command_buffer[6] == 0x57 && 
+                initial_command_buffer[27] == 0x00 && initial_command_buffer[28] == 0x00 && 
+                initial_command_buffer[29] == 0x0D && initial_command_buffer[30] == 0x0A  // 检查帧尾
+                )  // 数据包大小为31字节
+                {
+                    initial_command.open("/mnt/data/GuanDao_CiLiYi/GuanDao_CiLiYi_code/start_command", ios::binary | ios::trunc);
+                    BiaoJiao.open("/mnt/data/GuanDao_CiLiYi/GuanDao_CiLiYi_code/BiaoJiao", ios::binary | ios::trunc);
+
+                    // 将接收到的起始命令写入文件
+                    initial_command.write(initial_command_buffer, 31);
+                    BiaoJiao.write(initial_command_buffer + 5, 26);
+
+                    // 关闭文件
+                    initial_command.close();
+                    BiaoJiao.close();
+                    break;
+                }
+                else
+                {
+                    // 数据包不符合要求
+                    cout << "Error! Received data packet does not match expected format or length(31)" << endl;
+                    cout << "please continue to receive right initial command" << endl; 
+                }
+            }
+        }
+        usleep(1000);
+    }
+
+    close(udp_socket);
+}
+
+
+// 初始化 GPIO 引脚
+bool set_gpio_value(int gpio_line, int value) 
+{
+    gpiod_chip *chip = gpiod_chip_open(GPIO_CHIP);
+    if (!chip) 
+    {
+        std::cerr << "Failed to open GPIO chip." << std::endl;
+        return false;
+    }
+
+    gpiod_line *line = gpiod_chip_get_line(chip, gpio_line);
+    if (!line) 
+    {
+        std::cerr << "Failed to get GPIO line." << std::endl;
+        gpiod_chip_close(chip);
+        return false;
+    }
+
+    if (gpiod_line_request_output(line, "gpio_control", value) < 0) 
+    {
+        std::cerr << "Failed to request line as output." << std::endl;
+        gpiod_chip_close(chip);
+        return false;
+    }
+
+    if (gpiod_line_set_value(line, value) < 0) 
+    {
+        std::cerr << "Failed to set GPIO value." << std::endl;
+        gpiod_line_release(line);
+        gpiod_chip_close(chip);
+        return false;
+    }
+
+    gpiod_line_release(line);
+    gpiod_chip_close(chip);
+    return true;
+}
+
+int is_directory_empty(const char *dir_path) 
+{
+    DIR *dir = opendir(dir_path);
+    struct dirent *entry;
+
+    if (dir == NULL) 
+    {
+        perror("opendir failed");
+        return -1; // 目录打开失败
+    }
+
+    // 遍历目录中的条目
+    while ((entry = readdir(dir)) != NULL) 
+    {
+        // 忽略当前目录（.）和上一级目录（..）
+        if (entry->d_name[0] != '.') 
+        {
+            closedir(dir);
+            return 0; // 目录不为空
+        }
+    }
+
+    closedir(dir);
+    return 1; // 目录为空
+}
+
+// 打印char类型数组的值（16进制）
+void printHex(const char* command, size_t length) 
+{
+    std::cout << "Initial command in hex:" << std::endl;
+    for (size_t i = 0; i < length; ++i) {
+        std::cout << "0x" 
+                  << std::hex << std::uppercase << std::setw(2) << std::setfill('0') 
+                  << (static_cast<unsigned int>(command[i]) & 0xFF) 
+                  << " ";
+    }
+    std::cout << std::endl;
+}
 
 

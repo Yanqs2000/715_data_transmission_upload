@@ -25,7 +25,8 @@ struct ThreadParams
     int num;
 };
 
-typedef struct {
+typedef struct 
+{
     int if_GuanDao;
     int number;
     int width;

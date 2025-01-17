@@ -104,4 +104,3 @@ int DataExtractor_raw(vector<uint8_t> &frame, vector<uint8_t> &date_time)
     return 1;
 }
 
-// 

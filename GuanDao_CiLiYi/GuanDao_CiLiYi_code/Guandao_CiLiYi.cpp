@@ -23,11 +23,14 @@
 #include <sys/shm.h> 
 #include <semaphore.h>
 #include <stdint.h> 
+#include <gpiod.h>
 
 #define SHM_SIZE 22 
 #define SEM_NAME "/my_semaphore" 
 #define SHM_KEY 1234 // 固定的键值
- 
+#define GPIO_CHIP "/dev/gpiochip0" // GPIO 芯片
+#define GPIO_PH6 230 
+
 using namespace std;
 
 extern int USB_init(const char* filename);
@@ -37,10 +40,14 @@ extern void get_filename_from_time(char *filename, size_t len);
 
 extern struct _Params params;
 
+ofstream outfile;
+ofstream outfile_nas;
+
 const vector<uint8_t> GuanDao_frame_header = {0xAA, 0x55, 0x5A, 0xA5};//定义惯导帧头
 const vector<uint8_t> CiLiYi_frame_header = {0x4C, 0x57, 0x78, 0x00};//定义磁力仪帧头
+const char* if_nas_exist_path = "/mnt/nas";
 
-int usb_serial_GuanDao;
+//int usb_serial_GuanDao;
 int usb_serial_CiLiYi;
 
 int CX_data_package = 0;
@@ -48,14 +55,38 @@ int GuanDao_data_package = 0;
 int read_process_count = 0;
 int write_process_count = 0;
 
+// 共享内存
+int shmid;
+uint8_t *str;
+sem_t *sem;
+
 // 临时中断
 void signal_handler(int signal) 
 {
-    close(usb_serial_GuanDao);
+    shmdt(str);
+    sem_close(sem);
+    sem_unlink(SEM_NAME);
+
+    //close(usb_serial_GuanDao);
     close(usb_serial_CiLiYi);
+
     LOG(WARNING) << "Program Interrupts";
     cout << "\nProgram Interrupts" << endl;
     google::ShutdownGoogleLogging();  // Close glog
+
+    // 删除文件 start_command
+    if (params.if_delete_start_command && access("/mnt/data/GuanDao_CiLiYi/GuanDao_CiLiYi_code/start_command", F_OK) == 0)
+    {
+        if (remove("/mnt/data/GuanDao_CiLiYi/GuanDao_CiLiYi_code/start_command") == 0) 
+        {
+            printf("File 'start_command' successfully deleted.\n");
+        } 
+        else 
+        {
+            perror("Error deleting file");
+        }
+    }
+
     cout << "CX_data_package = " << CX_data_package << " GuanDao_data_package = " << GuanDao_data_package << " read_process_count = " << read_process_count << " write_process_count = " << write_process_count << endl;
     exit(0);
 }
@@ -81,19 +112,17 @@ void check_and_increment(const std::vector<uint8_t>& data_raw,int total_bytes)
 
 int main(int argc, char* argv[]) 
 {
-    int shmid;
-    uint8_t *str;
-    sem_t *sem;
-    
-    //vector<uint8_t> data_raw_GuanDao;
     vector<uint8_t> data_raw_CiLiYi;
     vector<uint8_t> data_CiLiYi;
     vector<uint8_t> data_GuanDao;
-    ofstream outfile;
-    ofstream outfile_nas;
+
     INIReader reader("config.ini");
     
     string base_command = "sudo mkdir -p ";
+
+    ifstream initial_command_read;
+
+    char initial_command_buffer[31];
 
     if (reader.ParseError() < 0) 
     {
@@ -107,6 +136,7 @@ int main(int argc, char* argv[])
     params.if_nas = reader.GetBoolean("other", "if_nas", false);
     params.if_GuanDao = reader.GetBoolean("other", "if_GuanDao", false);
     params.work_time = reader.GetInteger("other", "work_time", -1);
+    params.if_delete_start_command = reader.GetBoolean("other", "if_delete_start_command", false);
     
     //const char* log_dir = "/mnt/data/GuanDao_CiLiYi/logs/";
     const std::string log_dir = params.log_dir;
@@ -143,17 +173,32 @@ int main(int argc, char* argv[])
         }
         sleep(2); // 等待挂载完成
 
-        struct stat data_nas_info;
-        if (stat(data_nas_dir.c_str(), &data_nas_info) != 0) 
+        int if_nas_exist_path_result = is_directory_empty(if_nas_exist_path);
+        if (if_nas_exist_path_result == 1) 
         {
-            string full_command = base_command + data_nas_dir;
-            
-            int ret = system(full_command.c_str());
-            if (ret == -1) 
+            cout << "nas directory is empty." << endl;
+            cout << "maybe a new nas, need a file folder to check, please create a simple file folder in nas by hand." << endl;
+            cout << "maybe mounting nas is failed." << endl;
+            params.if_nas = false;
+        }
+        else if (if_nas_exist_path_result == 0)
+        {
+            struct stat data_nas_info;
+            if (stat(data_nas_dir.c_str(), &data_nas_info) != 0) 
             {
-                perror("Failed to execute mkdir command");
-                return -1;
+                string full_command = base_command + data_nas_dir;
+                
+                int ret = system(full_command.c_str());
+                if (ret == -1) 
+                {
+                    perror("Failed to execute mkdir command");
+                    return -1;
+                }
             }
+        }
+        else
+        {
+            cout << "An error occurred while checking the directory.\n" << endl;
         }
     }    
 
@@ -162,9 +207,9 @@ int main(int argc, char* argv[])
     FLAGS_log_dir = log_dir;  // Set log directory
     FLAGS_logtostderr = false; // Only output to file
 
-    //const char* usb_device_GuanDao = "/dev/ttyS3";  // ttyS3 for GuanDao (惯导)
+    //const char* usb_device_GuanDao = "/dev/ttyS3";  // ttyS3 for GuanDao (惯导)，目前惯导数据从共享内存中读取，无需接收
     const char* usb_device_CiLiYi = "/dev/ttyS4";  // ttyS4 for CiLiYi (磁力仪)
-    int GuanDao_total_bytes = 110;  // Bytes to read from GuanDao
+    //int GuanDao_total_bytes = 110;  // Bytes to read from GuanDao
     int CiLiYi_total_bytes = 120;    // Bytes to read from CiLiYi
     char file_name_time[64];
     char output_file[128];
@@ -186,28 +231,73 @@ int main(int argc, char* argv[])
 
     signal(SIGINT, signal_handler);
     
+    if (access("/mnt/data/GuanDao_CiLiYi/GuanDao_CiLiYi_code/start_command", F_OK) == -1)
+    {
+        // Start UDP listener in a separate thread
+        std::thread udp_thread(udp_listener_thread);
+        udp_thread.join(); // Wait until it finishes
+    }
+
+    // 打开起始命令文件进行读取
+    initial_command_read.open("/mnt/data/GuanDao_CiLiYi/GuanDao_CiLiYi_code/start_command", std::ios::binary);
+
+    // 检查文件是否成功打开
+    if (!initial_command_read.is_open()) 
+    {
+        std::cerr << "Failed to open file: start_command"<< std::endl;
+        return -1;
+    }
+
+    initial_command_read.read(initial_command_buffer, 31);
+    //printHex(initial_command_buffer, 31);
+
+    // 关闭文件
+    initial_command_read.close();                   
+                        
+    set_gpio_value(GPIO_PH6, 1); //将PH6引脚电平拉高，让磁力仪串口进入发送模式
+    usleep(100000);
+    cout << "send initial command to CiLiYi" << endl;
+
+    int initial_command_write_number = write(usb_serial_CiLiYi, initial_command_buffer, 31);
+
+    // 检查写入是否成功
+    if (initial_command_write_number < 0) 
+    {
+        perror("Write initial command failed");
+        return -1;
+    } 
+    else 
+    {
+        std::cout << "Successfully sent " << initial_command_write_number << " bytes." << std::endl;
+    }
+    usleep(100000); //100ms
+    set_gpio_value(GPIO_PH6, 0); //将PH6引脚电平拉低，让磁力仪串口进入接收模式
+
     if(params.if_GuanDao)
     {
-      // 获取共享内存
-      shmid = shmget(SHM_KEY, SHM_SIZE, 0666);
-      if (shmid < 0) {
-          perror("shmget");
-          return 1;
-      }
+        // 获取共享内存
+        shmid = shmget(SHM_KEY, SHM_SIZE, 0666);
+        if (shmid < 0) 
+        {
+            perror("shmget");
+            return 1;
+        }
   
-      str = (uint8_t*)shmat(shmid, NULL, 0);
-      if (str == (uint8_t*)(-1)) {
-          perror("shmat");
-          return 1;
-      }
+        str = (uint8_t*)shmat(shmid, NULL, 0);
+        if (str == (uint8_t*)(-1)) 
+        {
+            perror("shmat");
+            return 1;
+        }
   
-      // 打开信号量
-      sem = sem_open(SEM_NAME, 0);
-      if (sem == SEM_FAILED) {
-          perror("sem_open");
-          return 1;
-      }
-   }
+        // 打开信号量
+        sem = sem_open(SEM_NAME, 0);
+        if (sem == SEM_FAILED) 
+        {
+            perror("sem_open");
+            return 1;
+        }
+    }
     
     // 获取程序启动时间
     auto start_time = std::chrono::high_resolution_clock::now();
@@ -285,30 +375,37 @@ int main(int argc, char* argv[])
 
         // Clear variables for next loop
         data_raw_CiLiYi.clear();
-        //data_raw_GuanDao.clear();
         data_CiLiYi.clear();
         data_GuanDao.clear();
 
         // Sleep to prevent fast looping
         usleep(1000);  // Sleep for 1 milliseconds
     }
+
     shmdt(str);
     sem_close(sem);
     sem_unlink(SEM_NAME);
-    // Close USB serial ports
+    
     //close(usb_serial_GuanDao);
     close(usb_serial_CiLiYi);
     google::ShutdownGoogleLogging();  // Close glog
 
+    // 删除文件 start_command
+    if (params.if_delete_start_command)
+    {
+        if (remove("/mnt/data/GuanDao_CiLiYi/GuanDao_CiLiYi_code/start_command") == 0) 
+        {
+            printf("File 'start_command' successfully deleted.\n");
+        } 
+        else 
+        {
+            perror("Error deleting file");
+        }
+    }
+
     cout << "CX_data_package = " << CX_data_package << " GuanDao_data_package = " << GuanDao_data_package << " read_process_count = " << read_process_count << " write_process_count = " << write_process_count << endl;
     return 0;
 }
-// 编译命令
-// g++ -o Guandao_CiLiYi Guandao_CiLiYi.cpp DataExtractor.cpp Thread_ReadUSB.cpp INIReader.cpp ini.c -lglog
-// 目前能完整接收、不丢数据，只是接收较慢,可能是波特率太低的问题，需要时间来进行传输
-// 不同时启动的问题
-// 磁力仪和惯导中，read_pcocess有调换，
-// 在有数据输入时，惯导180ms，惯导0ms，???
 
 
 
